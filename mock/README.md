@@ -64,7 +64,7 @@ En el paper también usan los datos secuenciados con PromethION. Estos son muy p
 
 También están los datos de señal, en principio no los descargué, para seguir los pasos del paper estoy trabajando con los datos tal cual los de ellos.
 
-Descargué los datos de poro R10.3 de <https://nanopore.s3.climb.ac.uk/mock/Zymo-GridION-EVEN-3Peaks-R103-merged.fq.gz>. Son pocos reads (1.16M). También tienen publicados datos con el poro R10, son muchos mas reads (6.74M), disponibles en <https://nanopore.s3.climb.ac.uk/mock/Zymo-GridION-Even-3Peaks-Native-R10_hac_meth.fq.gz.
+Descargué los datos de poro R10.3 de <https://nanopore.s3.climb.ac.uk/mock/Zymo-GridION-EVEN-3Peaks-R103-merged.fq.gz>. Son pocos reads (1.16M). También tienen publicados datos con el poro R10, son muchos mas reads (6.74M), disponibles en <https://nanopore.s3.climb.ac.uk/mock/Zymo-GridION-Even-3Peaks-Native-R10_hac_meth.fq.gz>.
 
 Descargué las referencias (assemblies de spades con reads illumina) de <http://nanopore.s3.climb.ac.uk/mockcommunity/v2/Zymo-Isolates-SPAdes-Illumina.fasta>.
 
@@ -129,4 +129,4 @@ Hice un script en python que toma como entrada un fastq y devuelve el fastq con 
 
 Es una primera idea de cómo definir los bins, no hay nada que respalde esta elección, pero me parece claro que los bins de illumina no funcionan para los datos de nanopore porque la calidad media de illumina es mucho mayor.
 
-Hice el binning de los valores de calidad de los reads de la secuencicion con el poro r10, y a esos datos le apliqué el mismo pipeline que a los datos originales de r10.
+Hice el binning de los valores de calidad de los reads de la secuencicion con el poro r10, y a esos datos le apliqué el mismo pipeline que a los datos originales.
