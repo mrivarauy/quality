@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 
+'''
+Script para aplicar binning a los valores de calidad de un fastq.
+Toma como entrada un fastq (opcionalmente comprimido con gzip) y devuelve un fastq con menos valores de calidad.
+Usage: qbinning.py file.fq > output.fq
+Lucía Balestrazzi - 2021
+'''
+
 import sys
 import os
 import gzip
@@ -34,8 +41,8 @@ for line in fh:
         newqual=""
         for base in qual:
           qsc=ord(base)-33
-          if 2 <= qsc <= 7:
-            newqual = newqual + chr(6+33)
+          if qsc <= 7:
+            newqual = newqual + chr(5+33)
           elif 8 <= qsc <= 13:
             newqual = newqual + chr(12+33)
           elif 14 <= qsc <= 19:
