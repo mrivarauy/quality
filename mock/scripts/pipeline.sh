@@ -4,7 +4,7 @@
 
 PREFIX=r10-3
 ASSEMBLY=raw-${PREFIX}.fasta
-NPROC=28
+NPROC=32
 READS_NANO=/media3/lucia/zymo_mock_community/Zymo-GridION-EVEN-3Peaks-R103-merged.fq.gz
 MEDAKA_MODEL=r103_min_high_g345
 MP_PARAMS=/media3/lucia/zymo_mock_community/marginPolish/params/allParams.np.microbial.r103g324.json
@@ -12,10 +12,10 @@ HELEN_MODEL=/media3/lucia/zymo_mock_community/helen-models/HELEN_r103_guppy_micr
 REF_DIR_ILL=/media3/lucia/zymo_mock_community/illumina_ref_asm/bac/
 METAQUAST_OUTDIR=r10
 ## flags, cambiar a false lo que no quiera correr
-flyeflag=false
-raconflag=false
-medakaflag=false
-marginflag=false
+flyeflag=true
+raconflag=true
+medakaflag=true
+marginflag=true
 helenflag=true
 metaquastflag=true
 buscoflag=false
