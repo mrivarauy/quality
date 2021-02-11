@@ -142,4 +142,4 @@ Es una primera idea de cómo definir los bins, no hay nada que respalde esta ele
 
 Después de hacer el binning de los valores de calidad de los reads le apliqué el mismo pipeline que a los datos originales y plotee los mismaches por cada 100kb:
 
-![quality/quality-dotchart.png]
+![](https://github.com/lbal-biomat/quality/blob/main/mock/results/quality-dorchart.png)
