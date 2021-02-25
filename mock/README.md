@@ -129,7 +129,7 @@ Hice un script en python que toma como entrada un fastq y devuelve el fastq con 
 
 y otro con 8 bins:
 
-- si qscore <= 6 -> newqscore = 5
+- si qsc <= 6 -> newqscore = 5
 - si 7 <= qsc <= 11 -> newqscore = 10
 - si 12 <= qsc <= 16 -> newqscore = 15
 - si 17 <= qsc <= 21 -> newqscore = 20
@@ -143,3 +143,26 @@ Es una primera idea de cómo definir los bins, no hay nada que respalde esta ele
 Después de hacer el binning de los valores de calidad de los reads le apliqué el mismo pipeline que a los datos originales y plotee los mismaches por cada 100kb:
 
 ![](https://github.com/lbal-biomat/quality/blob/main/mock/results/quality-dorchart.png)
+
+
+Nuevos binnings:
+
+-2 bins:
+
++ si qsc <= 7 -> newqscore = 5
++ si qsc > 7 -> newqscore = 15
+
+- 2 bins_v2:
+
++ si qsc <=10 -> newqscore = 10
++ si qsc > 10 -> newqscoew = 30 
+
+- Calidad constante: 20
+
+Plot:
+
+![](https://github.com/lbal-biomat/quality/blob/main/mock/results/dorchart3.png)
+
+Zoom en el eje y (sin los raw):
+
+![](https://github.com/lbal-biomat/quality/blob/main/mock/results/dorchart2.png)
