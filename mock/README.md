@@ -155,7 +155,7 @@ Calidad constante: 10, 20, 30 y 40
 
 ## Plots:
 
-![](https://github.com/lbal-biomat/quality/blob/main/mock/results/quality-dorchart.png)
+![](https://github.com/lbal-biomat/quality/blob/main/mock/results/quality-dotchart.png)
 
 
 Zoom en el eje y (sin los raw):
