@@ -1,0 +1,747 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [bs_ill_bs_contig20]
+	Loaded [bs_ill_bs_contig21]
+	Loaded [bs_ill_bs_contig89]
+	Loaded [bs_ill_bs_contig411]
+	Loaded [bs_ill_bs_contig1250]
+	Loaded [bs_ill_bs_contig11]
+	Loaded [bs_ill_bs_contig10]
+	Loaded [bs_ill_bs_contig13]
+	Loaded [bs_ill_bs_contig12]
+	Loaded [bs_ill_bs_contig15]
+	Loaded [bs_ill_bs_contig14]
+	Loaded [bs_ill_bs_contig17]
+	Loaded [bs_ill_bs_contig16]
+	Loaded [bs_ill_bs_contig19]
+	Loaded [bs_ill_bs_contig18]
+	Loaded [bs_ill_bs_contig839]
+	Loaded [bs_ill_bs_contig9]
+	Loaded [bs_ill_bs_contig1326]
+	Loaded [bs_ill_bs_contig1146]
+	Loaded [bs_ill_bs_contig1]
+	Loaded [bs_ill_bs_contig3]
+	Loaded [bs_ill_bs_contig2]
+	Loaded [bs_ill_bs_contig5]
+	Loaded [bs_ill_bs_contig4]
+	Loaded [bs_ill_bs_contig7]
+	Loaded [bs_ill_bs_contig6]
+	Loaded [bs_ill_bs_contig933]
+	Loaded [bs_ill_bs_contig8]
+	Loaded [bs_ill_bs_contig991]
+	Total Regions: 29
+	Total Region Length: 3985829
+Analyzing contigs...
+CONTIG: contig_12 (2991949bp)
+Best alignment score: 4583.0 (LEN: 4701, IDY: 97.49), Total number of alignments: 63
+			Looking for the best set of alignments (out of 63 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 34981 35053 | 2102958 2103030 | 73 73 | 100.0 | bs_ill_bs_contig15 contig_12
+		Skipping redundant alignment 299 374 | 2886593 2886518 | 76 76 | 97.37 | bs_ill_bs_contig1326 contig_12
+		Skipping redundant alignment 18222 18293 | 376345 376416 | 72 72 | 100.0 | bs_ill_bs_contig20 contig_12
+		Skipping redundant alignment 99075 99146 | 376416 376345 | 72 72 | 100.0 | bs_ill_bs_contig3 contig_12
+		Skipping redundant alignment 34981 35053 | 376344 376416 | 73 73 | 100.0 | bs_ill_bs_contig15 contig_12
+		Skipping redundant alignment 18222 18295 | 597706 597633 | 74 74 | 100.0 | bs_ill_bs_contig20 contig_12
+		Skipping redundant alignment 99073 99150 | 597633 597710 | 78 78 | 97.44 | bs_ill_bs_contig3 contig_12
+		Skipping redundant alignment 99075 99146 | 2103030 2102959 | 72 72 | 100.0 | bs_ill_bs_contig3 contig_12
+		Skipping redundant alignment 99180 99347 | 2098994 2098829 | 168 166 | 90.64 | bs_ill_bs_contig3 contig_12
+		Skipping redundant alignment 18222 18293 | 2102959 2103030 | 72 72 | 100.0 | bs_ill_bs_contig20 contig_12
+		Skipping redundant alignment 1 133 | 602752 602884 | 133 133 | 91.73 | bs_ill_bs_contig3 contig_12
+		Skipping redundant alignment 159 246 | 602910 602997 | 88 88 | 90.91 | bs_ill_bs_contig3 contig_12
+		Skipping redundant alignment 266 333 | 603019 603086 | 68 68 | 95.59 | bs_ill_bs_contig3 contig_12
+		Skipping redundant alignment 34981 35062 | 2885066 2884985 | 82 82 | 100.0 | bs_ill_bs_contig15 contig_12
+		Skipping redundant alignment 32167 32235 | 1098216 1098284 | 69 69 | 91.3 | bs_ill_bs_contig13 contig_12
+		Skipping redundant alignment 266 333 | 1146400 1146333 | 68 68 | 95.59 | bs_ill_bs_contig3 contig_12
+		Skipping redundant alignment 159 246 | 1146509 1146422 | 88 88 | 90.91 | bs_ill_bs_contig3 contig_12
+		Skipping redundant alignment 1 133 | 1146667 1146535 | 133 133 | 91.73 | bs_ill_bs_contig3 contig_12
+		Skipping redundant alignment 99074 99146 | 2884993 2885065 | 73 73 | 100.0 | bs_ill_bs_contig3 contig_12
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 23440.4, number of alignments: 44, unaligned bases: 2964124
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 27825 out of 2991949 non-N bases (0.93%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 2991949 (number of Ns: 0) and total length of all aligns is 27825
+		Alignment: 1 166 | 166 1 | 166 166 | 93.98 | bs_ill_bs_contig13 contig_12
+		Alignment: 1 1065 | 112 1176 | 1065 1065 | 95.6 | bs_ill_bs_contig839 contig_12
+		Alignment: 108 910 | 1371 2179 | 803 809 | 91.87 | bs_ill_bs_contig991 contig_12
+		Alignment: 83 720 | 2820 2184 | 638 637 | 90.39 | bs_ill_bs_contig1146 contig_12
+		Alignment: 1 966 | 4330 3367 | 966 964 | 94.21 | bs_ill_bs_contig933 contig_12
+		Alignment: 1 133 | 4276 4408 | 133 133 | 91.73 | bs_ill_bs_contig3 contig_12
+		Alignment: 159 246 | 4434 4521 | 88 88 | 90.91 | bs_ill_bs_contig3 contig_12
+		Alignment: 266 333 | 4543 4610 | 68 68 | 95.59 | bs_ill_bs_contig3 contig_12
+		Alignment: 1 277 | 598391 598115 | 277 277 | 91.07 | bs_ill_bs_contig13 contig_12
+		Alignment: 1 1065 | 598337 599401 | 1065 1065 | 95.6 | bs_ill_bs_contig839 contig_12
+		Alignment: 108 910 | 599596 600404 | 803 809 | 91.87 | bs_ill_bs_contig991 contig_12
+		Alignment: 83 720 | 601045 600409 | 638 637 | 90.39 | bs_ill_bs_contig1146 contig_12
+		Alignment: 1 966 | 602806 601843 | 966 964 | 94.21 | bs_ill_bs_contig933 contig_12
+		Alignment: 1 4776 | 1001792 1006492 | 4776 4701 | 97.49 | bs_ill_bs_contig89 contig_12
+		Alignment: 1 966 | 1146613 1147576 | 966 964 | 94.21 | bs_ill_bs_contig933 contig_12
+		Alignment: 83 720 | 1148372 1149008 | 638 637 | 90.39 | bs_ill_bs_contig1146 contig_12
+		Alignment: 108 910 | 1149821 1149013 | 803 809 | 91.87 | bs_ill_bs_contig991 contig_12
+		Alignment: 1 1065 | 1151080 1150016 | 1065 1065 | 95.6 | bs_ill_bs_contig839 contig_12
+		Alignment: 1 277 | 1151026 1151302 | 277 277 | 91.07 | bs_ill_bs_contig13 contig_12
+		Alignment: 266 333 | 1384190 1384123 | 68 68 | 95.59 | bs_ill_bs_contig3 contig_12
+		Alignment: 159 246 | 1384299 1384212 | 88 88 | 90.91 | bs_ill_bs_contig3 contig_12
+		Alignment: 1 133 | 1384457 1384325 | 133 133 | 91.73 | bs_ill_bs_contig3 contig_12
+		Alignment: 1 966 | 1384403 1385366 | 966 964 | 94.21 | bs_ill_bs_contig933 contig_12
+		Alignment: 83 720 | 1385913 1386549 | 638 637 | 90.39 | bs_ill_bs_contig1146 contig_12
+		Alignment: 108 910 | 1387362 1386554 | 803 809 | 91.87 | bs_ill_bs_contig991 contig_12
+		Alignment: 1 1065 | 1388621 1387557 | 1065 1065 | 95.6 | bs_ill_bs_contig839 contig_12
+		Alignment: 1 277 | 1388567 1388843 | 277 277 | 91.07 | bs_ill_bs_contig13 contig_12
+		Alignment: 266 333 | 1390209 1390142 | 68 68 | 95.59 | bs_ill_bs_contig3 contig_12
+		Alignment: 159 246 | 1390318 1390231 | 88 88 | 90.91 | bs_ill_bs_contig3 contig_12
+		Alignment: 1 133 | 1390476 1390344 | 133 133 | 91.73 | bs_ill_bs_contig3 contig_12
+		Alignment: 1 966 | 1390422 1391385 | 966 964 | 94.21 | bs_ill_bs_contig933 contig_12
+		Alignment: 83 720 | 1391932 1392568 | 638 637 | 90.39 | bs_ill_bs_contig1146 contig_12
+		Alignment: 108 910 | 1393381 1392573 | 803 809 | 91.87 | bs_ill_bs_contig991 contig_12
+		Alignment: 1 1065 | 1394640 1393576 | 1065 1065 | 95.6 | bs_ill_bs_contig839 contig_12
+		Alignment: 1 277 | 1394586 1394862 | 277 277 | 91.07 | bs_ill_bs_contig13 contig_12
+		Alignment: 18672 18790 | 1412456 1412574 | 119 119 | 90.76 | bs_ill_bs_contig13 contig_12
+		Alignment: 1 277 | 2887444 2887168 | 277 277 | 91.07 | bs_ill_bs_contig13 contig_12
+		Alignment: 1 1065 | 2887390 2888454 | 1065 1065 | 95.6 | bs_ill_bs_contig839 contig_12
+		Alignment: 108 910 | 2888649 2889457 | 803 809 | 91.87 | bs_ill_bs_contig991 contig_12
+		Alignment: 83 720 | 2890096 2889462 | 638 635 | 90.23 | bs_ill_bs_contig1146 contig_12
+		Alignment: 1 966 | 2891605 2890642 | 966 964 | 94.21 | bs_ill_bs_contig933 contig_12
+		Alignment: 1 133 | 2891551 2891683 | 133 133 | 91.73 | bs_ill_bs_contig3 contig_12
+		Alignment: 159 246 | 2891709 2891796 | 88 88 | 90.91 | bs_ill_bs_contig3 contig_12
+		Alignment: 266 333 | 2891818 2891885 | 68 68 | 95.59 | bs_ill_bs_contig3 contig_12
+		Unaligned bases: 2964124
+
+CONTIG: contig_2 (4045342bp)
+Best alignment score: 708676.3 (LEN: 708889, IDY: 99.97), Total number of alignments: 151
+			Too much alignments (151), will use speed up heuristics
+			Found 53 solid alignments:
+		Solid alignment 708453 709047 | 1 595 | 595 595 | 98.82 | bs_ill_bs_contig1 contig_2
+		Solid alignment 1 137190 | 138358 1171 | 137190 137188 | 99.99 | bs_ill_bs_contig11 contig_2
+		Solid alignment 1 269408 | 139491 408881 | 269408 269391 | 99.98 | bs_ill_bs_contig6 contig_2
+		Solid alignment 1 2262 | 411699 409436 | 2262 2264 | 99.91 | bs_ill_bs_contig411 contig_2
+		Solid alignment 1 156862 | 412078 568924 | 156862 156847 | 99.85 | bs_ill_bs_contig10 contig_2
+		Solid alignment 114 252570 | 573683 826231 | 252457 252549 | 99.93 | bs_ill_bs_contig9 contig_2
+		Solid alignment 1 294381 | 827411 1121768 | 294381 294358 | 99.99 | bs_ill_bs_contig5 contig_2
+		Solid alignment 1 315068 | 1437969 1122927 | 315068 315043 | 99.99 | bs_ill_bs_contig4 contig_2
+		Solid alignment 1 37065 | 1439129 1476186 | 37065 37058 | 99.98 | bs_ill_bs_contig17 contig_2
+		Solid alignment 1 1152 | 1478610 1479761 | 1152 1152 | 100.0 | bs_ill_bs_contig839 contig_2
+		Solid alignment 1 911 | 1479763 1480673 | 911 911 | 100.0 | bs_ill_bs_contig991 contig_2
+		Solid alignment 1 982 | 1482749 1481768 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+		Solid alignment 1 38370 | 1483036 1521404 | 38370 38369 | 100.0 | bs_ill_bs_contig16 contig_2
+		Solid alignment 1 263211 | 1522584 1785781 | 263211 263198 | 99.99 | bs_ill_bs_contig7 contig_2
+		Solid alignment 1 709047 | 2495270 1786382 | 709047 708889 | 99.97 | bs_ill_bs_contig1 contig_2
+		Solid alignment 1 59870 | 2495501 2555367 | 59870 59867 | 99.99 | bs_ill_bs_contig14 contig_2
+		Solid alignment 1 982 | 2555621 2556602 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+		Solid alignment 1 911 | 2558784 2557874 | 911 911 | 100.0 | bs_ill_bs_contig991 contig_2
+		Solid alignment 1 1152 | 2559937 2558786 | 1152 1152 | 100.0 | bs_ill_bs_contig839 contig_2
+		Solid alignment 1 15524 | 2560335 2575858 | 15524 15524 | 100.0 | bs_ill_bs_contig21 contig_2
+		Solid alignment 1 982 | 2576233 2577214 | 982 982 | 99.9 | bs_ill_bs_contig933 contig_2
+		Solid alignment 1 911 | 2579396 2578486 | 911 911 | 100.0 | bs_ill_bs_contig991 contig_2
+		Solid alignment 1 1152 | 2580549 2579398 | 1152 1152 | 100.0 | bs_ill_bs_contig839 contig_2
+		Solid alignment 1 55215 | 2580971 2636180 | 55215 55210 | 99.98 | bs_ill_bs_contig15 contig_2
+		Solid alignment 1 982 | 2636562 2637543 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+		Solid alignment 1 911 | 2639548 2638638 | 911 911 | 100.0 | bs_ill_bs_contig991 contig_2
+		Solid alignment 1 1152 | 2640699 2639550 | 1152 1150 | 99.83 | bs_ill_bs_contig839 contig_2
+		Solid alignment 1 982 | 2642483 2643464 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+		Solid alignment 1 911 | 2645468 2644559 | 911 910 | 99.89 | bs_ill_bs_contig991 contig_2
+		Solid alignment 1 1152 | 2646621 2645470 | 1152 1152 | 100.0 | bs_ill_bs_contig839 contig_2
+		Solid alignment 1 60136 | 2646567 2706702 | 60136 60136 | 99.98 | bs_ill_bs_contig13 contig_2
+		Solid alignment 1 982 | 2707023 2708004 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+		Solid alignment 1 911 | 2710009 2709099 | 911 911 | 100.0 | bs_ill_bs_contig991 contig_2
+		Solid alignment 1 1152 | 2711162 2710011 | 1152 1152 | 100.0 | bs_ill_bs_contig839 contig_2
+		Solid alignment 1 982 | 2712636 2713617 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+		Solid alignment 1 911 | 2715622 2714712 | 911 911 | 100.0 | bs_ill_bs_contig991 contig_2
+		Solid alignment 1 1152 | 2716775 2715624 | 1152 1152 | 100.0 | bs_ill_bs_contig839 contig_2
+		Solid alignment 1 982 | 2717637 2718618 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+		Solid alignment 1 911 | 2720623 2719713 | 911 911 | 99.89 | bs_ill_bs_contig991 contig_2
+		Solid alignment 1 1152 | 2721776 2720625 | 1152 1152 | 100.0 | bs_ill_bs_contig839 contig_2
+		Solid alignment 1 18355 | 2721990 2740339 | 18355 18350 | 99.96 | bs_ill_bs_contig20 contig_2
+		Solid alignment 1 104023 | 2844509 2740493 | 104023 104017 | 99.99 | bs_ill_bs_contig12 contig_2
+		Solid alignment 1 325319 | 3171122 2845669 | 325319 325454 | 99.93 | bs_ill_bs_contig3 contig_2
+		Solid alignment 1 982 | 3171068 3172051 | 982 984 | 99.8 | bs_ill_bs_contig933 contig_2
+		Solid alignment 1 911 | 3174056 3173146 | 911 911 | 100.0 | bs_ill_bs_contig991 contig_2
+		Solid alignment 1 1152 | 3175209 3174058 | 1152 1152 | 99.91 | bs_ill_bs_contig839 contig_2
+		Solid alignment 1 29697 | 3175548 3205240 | 29697 29693 | 99.95 | bs_ill_bs_contig18 contig_2
+		Solid alignment 1 257004 | 3206399 3463431 | 257004 257033 | 99.97 | bs_ill_bs_contig8 contig_2
+		Solid alignment 1 982 | 3463817 3464798 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+		Solid alignment 1 911 | 3466803 3465893 | 911 911 | 99.89 | bs_ill_bs_contig991 contig_2
+		Solid alignment 1 1152 | 3467955 3466805 | 1152 1151 | 99.91 | bs_ill_bs_contig839 contig_2
+		Solid alignment 1 552243 | 4021635 3469606 | 552243 552030 | 99.96 | bs_ill_bs_contig2 contig_2
+		Solid alignment 1 23145 | 4022200 4045342 | 23145 23143 | 99.99 | bs_ill_bs_contig19 contig_2
+			Skipping alignments located inside solid regions since they are redundant:
+		Skipping redundant alignment 1 138 | 568431 568568 | 138 138 | 99.28 | bs_ill_bs_contig9 contig_2
+		Skipping redundant alignment 256 437 | 568704 568885 | 182 182 | 90.66 | bs_ill_bs_contig9 contig_2
+		Skipping redundant alignment 487 557 | 573876 573946 | 71 71 | 92.96 | bs_ill_bs_contig9 contig_2
+		Skipping redundant alignment 342 430 | 1483101 1483189 | 89 89 | 100.0 | bs_ill_bs_contig3 contig_2
+			Looking for the best set of alignments (out of 147 total alignments)
+		Ambiguity for this contig is not checked for speed up (too much alignments and --ambiguity-usage is "one")
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 341 430 | 3463466 3463377 | 90 90 | 98.89 | bs_ill_bs_contig3 contig_2
+		Skipping redundant alignment 149 320 | 409319 409490 | 172 172 | 100.0 | bs_ill_bs_contig10 contig_2
+		Skipping redundant alignment 155994 156067 | 569505 569578 | 74 74 | 94.59 | bs_ill_bs_contig10 contig_2
+		Skipping redundant alignment 262 442 | 569466 569646 | 181 181 | 92.27 | bs_ill_bs_contig9 contig_2
+		Skipping redundant alignment 70 297 | 3468778 3469005 | 228 228 | 100.0 | bs_ill_bs_contig18 contig_2
+		Skipping redundant alignment 98992 99064 | 3469536 3469464 | 73 73 | 100.0 | bs_ill_bs_contig3 contig_2
+		Skipping redundant alignment 103890 103965 | 3469538 3469463 | 76 76 | 100.0 | bs_ill_bs_contig12 contig_2
+		Skipping redundant alignment 156834 156912 | 570831 570909 | 79 79 | 92.41 | bs_ill_bs_contig10 contig_2
+		Skipping redundant alignment 1 120 | 571653 571772 | 120 120 | 99.17 | bs_ill_bs_contig9 contig_2
+		Skipping redundant alignment 156810 156939 | 572031 572160 | 130 130 | 100.0 | bs_ill_bs_contig10 contig_2
+		Skipping redundant alignment 445 517 | 572106 572178 | 73 73 | 100.0 | bs_ill_bs_contig9 contig_2
+		Skipping redundant alignment 262 449 | 572112 572299 | 188 188 | 92.55 | bs_ill_bs_contig9 contig_2
+		Skipping redundant alignment 156823 156913 | 573025 573115 | 91 91 | 92.31 | bs_ill_bs_contig10 contig_2
+		Skipping redundant alignment 156456 156553 | 573387 573484 | 98 98 | 100.0 | bs_ill_bs_contig10 contig_2
+		Skipping redundant alignment 99074 99348 | 1476132 1476406 | 275 275 | 100.0 | bs_ill_bs_contig3 contig_2
+		Skipping redundant alignment 73 297 | 1476996 1476772 | 225 225 | 99.11 | bs_ill_bs_contig18 contig_2
+		Skipping redundant alignment 7557 7656 | 1477105 1477006 | 100 100 | 99.0 | bs_ill_bs_contig21 contig_2
+		Skipping redundant alignment 34895 34972 | 1477264 1477187 | 78 78 | 100.0 | bs_ill_bs_contig15 contig_2
+		Skipping redundant alignment 524 601 | 1477453 1477530 | 78 78 | 100.0 | bs_ill_bs_contig3 contig_2
+		Skipping redundant alignment 99271 99341 | 3468490 3468420 | 71 71 | 95.77 | bs_ill_bs_contig3 contig_2
+		Skipping redundant alignment 219 297 | 2495401 2495323 | 79 79 | 100.0 | bs_ill_bs_contig18 contig_2
+		Skipping redundant alignment 34982 35054 | 2495555 2495483 | 73 73 | 100.0 | bs_ill_bs_contig15 contig_2
+		Skipping redundant alignment 18222 18295 | 2495555 2495482 | 74 74 | 100.0 | bs_ill_bs_contig20 contig_2
+		Skipping redundant alignment 99073 99146 | 2495482 2495555 | 74 74 | 100.0 | bs_ill_bs_contig3 contig_2
+		Skipping redundant alignment 1 425 | 2555675 2555250 | 425 426 | 99.53 | bs_ill_bs_contig3 contig_2
+		Skipping redundant alignment 99073 99146 | 3468695 3468622 | 74 74 | 100.0 | bs_ill_bs_contig3 contig_2
+		Skipping redundant alignment 1 274 | 2559883 2560156 | 274 274 | 100.0 | bs_ill_bs_contig13 contig_2
+		Skipping redundant alignment 328 450 | 2560291 2560413 | 123 123 | 100.0 | bs_ill_bs_contig13 contig_2
+		Skipping redundant alignment 1 115 | 2580947 2581061 | 115 115 | 98.26 | bs_ill_bs_contig21 contig_2
+		Skipping redundant alignment 521 601 | 2641778 2641698 | 81 81 | 100.0 | bs_ill_bs_contig3 contig_2
+		Skipping redundant alignment 299 374 | 2711810 2711885 | 76 76 | 100.0 | bs_ill_bs_contig1326 contig_2
+		Skipping redundant alignment 104 170 | 2717311 2717245 | 67 67 | 91.04 | bs_ill_bs_contig16 contig_2
+		Skipping redundant alignment 1 500 | 2721722 2722222 | 500 501 | 98.61 | bs_ill_bs_contig13 contig_2
+			The best set is below. Score: 4022382.0, number of alignments: 114, unaligned bases: 12133
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 4033209 out of 4045342 non-N bases (99.70%))
+			Real Alignment 1: 708453 709047 | 1 595 | 595 595 | 98.82 | bs_ill_bs_contig1 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 99 between Alignment 2 and 3: 1 673 | 597 1269 | 673 673 --> 1 574 | 597 1170 | 574 574
+			Real Alignment 2: 1 574 | 597 1170 | 574 574 | 97.62 | bs_ill_bs_contig2 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 3 and 4: 708461 709047 | 138304 138890 | 587 587 --> 708516 709047 | 138359 138890 | 532 532
+			Real Alignment 3: 1 137190 | 138358 1171 | 137190 137188 | 99.99 | bs_ill_bs_contig11 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 4: 708516 709047 | 138359 138890 | 532 532 | 98.81 | bs_ill_bs_contig1 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 72 between Alignment 5 and 6: 1 671 | 138892 139562 | 671 671 --> 1 599 | 138892 139490 | 599 599
+			Real Alignment 5: 1 599 | 138892 139490 | 599 599 | 98.06 | bs_ill_bs_contig2 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 6: 1 269408 | 139491 408881 | 269408 269391 | 99.98 | bs_ill_bs_contig6 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 7: 1 2262 | 411699 409436 | 2262 2264 | 99.91 | bs_ill_bs_contig411 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 8: 1 156862 | 412078 568924 | 156862 156847 | 99.85 | bs_ill_bs_contig10 contig_2
+			  Gap between these two alignments (local misassembly). Inconsistency = -513
+			Real Alignment 9: 156590 156939 | 569165 569514 | 350 350 | 100.0 | bs_ill_bs_contig10 contig_2
+			  Gap between these two alignments (local misassembly). Inconsistency = -927
+			Real Alignment 10: 156077 156223 | 569579 569725 | 147 147 | 97.96 | bs_ill_bs_contig10 contig_2
+			  Gap between these two alignments (local misassembly). Inconsistency = -378
+			Real Alignment 11: 155978 156197 | 569858 570077 | 220 220 | 99.55 | bs_ill_bs_contig10 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 36; 0 mismatches (number of Ns: 0)
+			Real Alignment 12: 156234 156335 | 570078 570179 | 102 102 | 93.14 | bs_ill_bs_contig10 contig_2
+			  Gap between these two alignments (local misassembly). Inconsistency = -153
+			Excluding internal overlap of size 40 between Alignment 13 and 14: 156423 156826 | 570420 570823 | 404 404 --> 156423 156786 | 570420 570783 | 364 364
+			Real Alignment 13: 156423 156786 | 570420 570783 | 364 364 | 92.08 | bs_ill_bs_contig10 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 14: 59 507 | 571223 570784 | 449 440 | 97.77 | bs_ill_bs_contig1250 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 15: 156140 156408 | 571460 571728 | 269 269 | 96.28 | bs_ill_bs_contig10 contig_2
+			  Gap between these two alignments (local misassembly). Inconsistency = 243
+			Real Alignment 16: 156684 156751 | 571761 571828 | 68 68 | 98.53 | bs_ill_bs_contig10 contig_2
+			  Gap between these two alignments (local misassembly). Inconsistency = -747
+			Real Alignment 17: 156140 156290 | 571964 572114 | 151 151 | 94.7 | bs_ill_bs_contig10 contig_2
+			  Gap between these two alignments (local misassembly). Inconsistency = -333
+			Real Alignment 18: 155994 156223 | 572151 572380 | 230 230 | 96.52 | bs_ill_bs_contig10 contig_2
+			  Gap between these two alignments (local misassembly). Inconsistency = -378
+			Excluding internal overlap of size 88 between Alignment 19 and 20: 155978 156223 | 572513 572758 | 246 246 --> 155978 156135 | 572513 572670 | 158 158
+			Real Alignment 19: 155978 156135 | 572513 572670 | 158 158 | 98.37 | bs_ill_bs_contig10 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 20: 1 609 | 573279 572671 | 609 609 | 100.0 | bs_ill_bs_contig1250 contig_2
+			  Gap between these two alignments (local misassembly). Inconsistency = 33 [fragmentation of reference genome]
+			Excluding internal overlap of size 13 between Alignment 21 and 22: 34 342 | 573387 573695 | 309 309 --> 34 329 | 573387 573682 | 296 296
+			Real Alignment 21: 34 329 | 573387 573682 | 296 296 | 99.03 | bs_ill_bs_contig9 contig_2
+			  Overlap between these two alignments (local misassembly). Inconsistency = -216
+			Excluding internal overlap of size 55 between Alignment 22 and 23: 708434 709047 | 826177 826790 | 614 614 --> 708489 709047 | 826232 826790 | 559 559
+			Real Alignment 22: 114 252570 | 573683 826231 | 252457 252549 | 99.93 | bs_ill_bs_contig9 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 23: 708489 709047 | 826232 826790 | 559 559 | 99.84 | bs_ill_bs_contig1 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 56 between Alignment 24 and 25: 1 674 | 826792 827466 | 674 675 --> 1 618 | 826792 827410 | 618 619
+			Real Alignment 24: 1 618 | 826792 827410 | 618 619 | 99.11 | bs_ill_bs_contig2 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 74 between Alignment 25 and 26: 1 673 | 1122367 1121695 | 673 673 --> 1 599 | 1122367 1121769 | 599 599
+			Real Alignment 25: 1 294381 | 827411 1121768 | 294381 294358 | 99.99 | bs_ill_bs_contig5 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 26: 1 599 | 1122367 1121769 | 599 599 | 98.96 | bs_ill_bs_contig2 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 27 and 28: 708435 709047 | 1122981 1122369 | 613 613 --> 708490 709047 | 1122926 1122369 | 558 558
+			Real Alignment 27: 708490 709047 | 1122926 1122369 | 558 558 | 100.0 | bs_ill_bs_contig1 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 74 between Alignment 28 and 29: 1 673 | 1438568 1437896 | 673 673 --> 1 599 | 1438568 1437970 | 599 599
+			Real Alignment 28: 1 315068 | 1437969 1122927 | 315068 315043 | 99.99 | bs_ill_bs_contig4 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 29: 1 599 | 1438568 1437970 | 599 599 | 99.26 | bs_ill_bs_contig2 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 30 and 31: 708434 709047 | 1439183 1438570 | 614 614 --> 708489 709047 | 1439128 1438570 | 559 559
+			Real Alignment 30: 708489 709047 | 1439128 1438570 | 559 559 | 99.84 | bs_ill_bs_contig1 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 31: 1 37065 | 1439129 1476186 | 37065 37058 | 99.98 | bs_ill_bs_contig17 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 32: 1 536 | 1477986 1477478 | 536 509 | 90.26 | bs_ill_bs_contig1326 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 33: 328 453 | 1478256 1478131 | 126 126 | 100.0 | bs_ill_bs_contig13 contig_2
+			  Gap between these two alignments (local misassembly). Inconsistency = -81
+			Excluding internal overlap of size 55 between Alignment 34 and 35: 1 274 | 1478664 1478391 | 274 274 --> 56 274 | 1478609 1478391 | 219 219
+			Real Alignment 34: 56 274 | 1478609 1478391 | 219 219 | 100.0 | bs_ill_bs_contig13 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 35: 1 1152 | 1478610 1479761 | 1152 1152 | 100.0 | bs_ill_bs_contig839 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 36: 1 911 | 1479763 1480673 | 911 911 | 100.0 | bs_ill_bs_contig991 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 37: 1 722 | 1481396 1480675 | 722 722 | 100.0 | bs_ill_bs_contig1146 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 38 and 39: 1 341 | 1482695 1483035 | 341 341 --> 56 341 | 1482750 1483035 | 286 286
+			Real Alignment 38: 1 982 | 1482749 1481768 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 39: 56 341 | 1482750 1483035 | 286 286 | 100.0 | bs_ill_bs_contig3 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 40 and 41: 708435 709047 | 1521350 1521962 | 613 613 --> 708490 709047 | 1521405 1521962 | 558 558
+			Real Alignment 40: 1 38370 | 1483036 1521404 | 38370 38369 | 100.0 | bs_ill_bs_contig16 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 41: 708490 709047 | 1521405 1521962 | 558 558 | 99.84 | bs_ill_bs_contig1 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 53 between Alignment 42 and 43: 1 673 | 1521964 1522636 | 673 673 --> 1 620 | 1521964 1522583 | 620 620
+			Real Alignment 42: 1 620 | 1521964 1522583 | 620 620 | 99.11 | bs_ill_bs_contig2 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 74 between Alignment 43 and 44: 1 673 | 1786380 1785708 | 673 673 --> 1 599 | 1786380 1785782 | 599 599
+			Real Alignment 43: 1 263211 | 1522584 1785781 | 263211 263198 | 99.99 | bs_ill_bs_contig7 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 44: 1 599 | 1786380 1785782 | 599 599 | 99.41 | bs_ill_bs_contig2 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 45: 1 709047 | 2495270 1786382 | 709047 708889 | 99.97 | bs_ill_bs_contig1 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 46: 1 59870 | 2495501 2555367 | 59870 59867 | 99.99 | bs_ill_bs_contig14 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 47: 1 982 | 2555621 2556602 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 48: 1 722 | 2557151 2557872 | 722 722 | 100.0 | bs_ill_bs_contig1146 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 49: 1 911 | 2558784 2557874 | 911 911 | 100.0 | bs_ill_bs_contig991 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 50: 1 1152 | 2559937 2558786 | 1152 1152 | 100.0 | bs_ill_bs_contig839 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 51: 1 15524 | 2560335 2575858 | 15524 15524 | 100.0 | bs_ill_bs_contig21 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 52 and 53: 1 342 | 2576287 2575946 | 342 342 --> 56 342 | 2576232 2575946 | 287 287
+			Real Alignment 52: 56 342 | 2576232 2575946 | 287 287 | 100.0 | bs_ill_bs_contig3 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 53: 1 982 | 2576233 2577214 | 982 982 | 99.9 | bs_ill_bs_contig933 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 54: 1 722 | 2577763 2578484 | 722 722 | 100.0 | bs_ill_bs_contig1146 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 55: 1 911 | 2579396 2578486 | 911 911 | 100.0 | bs_ill_bs_contig991 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 56 and 57: 1 274 | 2580495 2580768 | 274 274 --> 56 274 | 2580550 2580768 | 219 219
+			Real Alignment 56: 1 1152 | 2580549 2579398 | 1152 1152 | 100.0 | bs_ill_bs_contig839 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 57: 56 274 | 2580550 2580768 | 219 219 | 100.0 | bs_ill_bs_contig13 contig_2
+			  Gap between these two alignments (local misassembly). Inconsistency = -81
+			Excluding internal overlap of size 55 between Alignment 58 and 59: 328 450 | 2580903 2581025 | 123 123 --> 328 395 | 2580903 2580970 | 68 68
+			Real Alignment 58: 328 395 | 2580903 2580970 | 68 68 | 100.0 | bs_ill_bs_contig13 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 59: 1 55215 | 2580971 2636180 | 55215 55210 | 99.98 | bs_ill_bs_contig15 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 60 and 61: 1 341 | 2636616 2636276 | 341 341 --> 56 341 | 2636561 2636276 | 286 286
+			Real Alignment 60: 56 341 | 2636561 2636276 | 286 286 | 100.0 | bs_ill_bs_contig3 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 61: 1 982 | 2636562 2637543 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 62: 1 722 | 2637915 2638636 | 722 722 | 100.0 | bs_ill_bs_contig1146 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 63: 1 911 | 2639548 2638638 | 911 911 | 100.0 | bs_ill_bs_contig991 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 64 and 65: 1 453 | 2640645 2641098 | 453 454 --> 56 453 | 2640700 2641098 | 398 399
+			Real Alignment 64: 1 1152 | 2640699 2639550 | 1152 1150 | 99.83 | bs_ill_bs_contig839 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 65: 56 453 | 2640700 2641098 | 398 399 | 99.78 | bs_ill_bs_contig13 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 66: 1 536 | 2641215 2641750 | 536 536 | 100.0 | bs_ill_bs_contig1326 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 67 and 68: 1 341 | 2642537 2642197 | 341 341 --> 56 341 | 2642482 2642197 | 286 286
+			Real Alignment 67: 56 341 | 2642482 2642197 | 286 286 | 100.0 | bs_ill_bs_contig3 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 68: 1 982 | 2642483 2643464 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 69: 1 722 | 2643836 2644557 | 722 722 | 100.0 | bs_ill_bs_contig1146 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 70: 1 911 | 2645468 2644559 | 911 910 | 99.89 | bs_ill_bs_contig991 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 71 and 72: 1 1152 | 2646621 2645470 | 1152 1152 --> 56 1152 | 2646566 2645470 | 1097 1097
+			Real Alignment 71: 56 1152 | 2646566 2645470 | 1097 1097 | 100.0 | bs_ill_bs_contig839 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Excluding internal overlap of size 55 between Alignment 72 and 73: 1 430 | 2707077 2706648 | 430 430 --> 1 375 | 2707077 2706703 | 375 375
+			Real Alignment 72: 1 60136 | 2646567 2706702 | 60136 60136 | 99.98 | bs_ill_bs_contig13 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 73 and 74: 1 375 | 2707077 2706703 | 375 375 --> 56 375 | 2707022 2706703 | 320 320
+			Real Alignment 73: 56 375 | 2707022 2706703 | 320 320 | 99.77 | bs_ill_bs_contig3 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 74: 1 982 | 2707023 2708004 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 75: 1 722 | 2708376 2709097 | 722 722 | 100.0 | bs_ill_bs_contig1146 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 76: 1 911 | 2710009 2709099 | 911 911 | 100.0 | bs_ill_bs_contig991 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 77 and 78: 1 449 | 2711108 2711556 | 449 449 --> 56 449 | 2711163 2711556 | 394 394
+			Real Alignment 77: 1 1152 | 2711162 2710011 | 1152 1152 | 100.0 | bs_ill_bs_contig839 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 78: 56 449 | 2711163 2711556 | 394 394 | 99.78 | bs_ill_bs_contig13 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 79: 521 601 | 2711998 2711918 | 81 81 | 100.0 | bs_ill_bs_contig3 contig_2
+			  Gap between these two alignments (local misassembly). Inconsistency = -171
+			Excluding internal overlap of size 55 between Alignment 80 and 81: 1 430 | 2712690 2712260 | 430 431 --> 56 430 | 2712635 2712260 | 375 376
+			Real Alignment 80: 56 430 | 2712635 2712260 | 375 376 | 99.54 | bs_ill_bs_contig3 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 81: 1 982 | 2712636 2713617 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 82: 1 722 | 2713989 2714710 | 722 722 | 100.0 | bs_ill_bs_contig1146 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 83: 1 911 | 2715622 2714712 | 911 911 | 100.0 | bs_ill_bs_contig991 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 84 and 85: 1 453 | 2716721 2717173 | 453 453 --> 56 453 | 2716776 2717173 | 398 398
+			Real Alignment 84: 1 1152 | 2716775 2715624 | 1152 1152 | 100.0 | bs_ill_bs_contig839 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 85: 56 453 | 2716776 2717173 | 398 398 | 100.0 | bs_ill_bs_contig13 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 86 and 87: 1 430 | 2717691 2717261 | 430 431 --> 56 430 | 2717636 2717261 | 375 376
+			Real Alignment 86: 56 430 | 2717636 2717261 | 375 376 | 99.54 | bs_ill_bs_contig3 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 87: 1 982 | 2717637 2718618 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 88: 1 722 | 2718990 2719711 | 722 722 | 100.0 | bs_ill_bs_contig1146 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 89: 1 911 | 2720623 2719713 | 911 911 | 99.89 | bs_ill_bs_contig991 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 90: 1 1152 | 2721776 2720625 | 1152 1152 | 100.0 | bs_ill_bs_contig839 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 91: 1 18355 | 2721990 2740339 | 18355 18350 | 99.96 | bs_ill_bs_contig20 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 92 and 93: 708434 709047 | 2844455 2845068 | 614 614 --> 708489 709047 | 2844510 2845068 | 559 559
+			Real Alignment 92: 1 104023 | 2844509 2740493 | 104023 104017 | 99.99 | bs_ill_bs_contig12 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 93: 708489 709047 | 2844510 2845068 | 559 559 | 99.84 | bs_ill_bs_contig1 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 74 between Alignment 94 and 95: 1 673 | 2845070 2845742 | 673 673 --> 1 599 | 2845070 2845668 | 599 599
+			Real Alignment 94: 1 599 | 2845070 2845668 | 599 599 | 99.26 | bs_ill_bs_contig2 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 95 and 96: 1 982 | 3171068 3172051 | 982 984 --> 56 982 | 3171123 3172051 | 927 929
+			Real Alignment 95: 1 325319 | 3171122 2845669 | 325319 325454 | 99.93 | bs_ill_bs_contig3 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 96: 56 982 | 3171123 3172051 | 927 929 | 99.8 | bs_ill_bs_contig933 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 97: 1 722 | 3172423 3173144 | 722 722 | 100.0 | bs_ill_bs_contig1146 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 98: 1 911 | 3174056 3173146 | 911 911 | 100.0 | bs_ill_bs_contig991 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 99 and 100: 1 448 | 3175155 3175602 | 448 448 --> 56 448 | 3175210 3175602 | 393 393
+			Real Alignment 99: 1 1152 | 3175209 3174058 | 1152 1152 | 99.91 | bs_ill_bs_contig839 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Excluding internal overlap of size 55 between Alignment 100 and 101: 56 448 | 3175210 3175602 | 393 393 --> 56 393 | 3175210 3175547 | 338 338
+			Real Alignment 100: 56 393 | 3175210 3175547 | 338 338 | 100.0 | bs_ill_bs_contig13 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 101 and 102: 708435 709047 | 3205186 3205798 | 613 613 --> 708490 709047 | 3205241 3205798 | 558 558
+			Real Alignment 101: 1 29697 | 3175548 3205240 | 29697 29693 | 99.95 | bs_ill_bs_contig18 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 102: 708490 709047 | 3205241 3205798 | 558 558 | 99.84 | bs_ill_bs_contig1 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 74 between Alignment 103 and 104: 1 673 | 3205800 3206472 | 673 673 --> 1 599 | 3205800 3206398 | 599 599
+			Real Alignment 103: 1 599 | 3205800 3206398 | 599 599 | 99.11 | bs_ill_bs_contig2 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 104: 1 257004 | 3206399 3463431 | 257004 257033 | 99.97 | bs_ill_bs_contig8 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 105 and 106: 1 340 | 3463871 3463532 | 340 340 --> 56 340 | 3463816 3463532 | 285 285
+			Real Alignment 105: 56 340 | 3463816 3463532 | 285 285 | 100.0 | bs_ill_bs_contig3 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 106: 1 982 | 3463817 3464798 | 982 982 | 100.0 | bs_ill_bs_contig933 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 107: 1 722 | 3465170 3465891 | 722 722 | 100.0 | bs_ill_bs_contig1146 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 108: 1 911 | 3466803 3465893 | 911 911 | 99.89 | bs_ill_bs_contig991 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 109 and 110: 1 319 | 3467901 3468220 | 319 320 --> 56 319 | 3467956 3468220 | 264 265
+			Real Alignment 109: 1 1152 | 3467955 3466805 | 1152 1151 | 99.91 | bs_ill_bs_contig839 contig_2
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 110: 56 319 | 3467956 3468220 | 264 265 | 99.69 | bs_ill_bs_contig13 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 111: 18222 18355 | 3468622 3468755 | 134 134 | 100.0 | bs_ill_bs_contig20 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 112: 1 552243 | 4021635 3469606 | 552243 552030 | 99.96 | bs_ill_bs_contig2 contig_2
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 113 and 114: 708430 709047 | 4022254 4021637 | 618 618 --> 708485 709047 | 4022199 4021637 | 563 563
+			Real Alignment 113: 708485 709047 | 4022199 4021637 | 563 563 | 99.84 | bs_ill_bs_contig1 contig_2
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 114: 1 23145 | 4022200 4045342 | 23145 23143 | 99.99 | bs_ill_bs_contig19 contig_2
+		Unaligned bases: 12133
+
+CONTIG: contig_6 (2720337bp)
+Best alignment score: 1002.1 (LEN: 1068, IDY: 93.83), Total number of alignments: 52
+			Looking for the best set of alignments (out of 52 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 105 553 | 2039 2487 | 449 449 | 91.09 | bs_ill_bs_contig991 contig_6
+		Skipping redundant alignment 261 334 | 5434 5507 | 74 74 | 93.24 | bs_ill_bs_contig3 contig_6
+		Skipping redundant alignment 98624 98712 | 5722 5809 | 89 88 | 96.63 | bs_ill_bs_contig3 contig_6
+		Skipping redundant alignment 98987 99064 | 113418 113495 | 78 78 | 97.44 | bs_ill_bs_contig3 contig_6
+		Skipping redundant alignment 103892 104023 | 113423 113555 | 132 133 | 95.52 | bs_ill_bs_contig12 contig_6
+		Skipping redundant alignment 18228 18355 | 113765 113640 | 128 126 | 94.53 | bs_ill_bs_contig20 contig_6
+		Skipping redundant alignment 8 169 | 114312 114151 | 162 162 | 95.06 | bs_ill_bs_contig13 contig_6
+		Skipping redundant alignment 105 553 | 115523 115971 | 449 449 | 91.09 | bs_ill_bs_contig991 contig_6
+		Skipping redundant alignment 105 553 | 1177929 1177481 | 449 449 | 91.09 | bs_ill_bs_contig991 contig_6
+		Skipping redundant alignment 8 169 | 1179141 1179302 | 162 162 | 95.06 | bs_ill_bs_contig13 contig_6
+		Skipping redundant alignment 261 334 | 1219189 1219116 | 74 74 | 93.24 | bs_ill_bs_contig3 contig_6
+		Skipping redundant alignment 2 100 | 1219450 1219352 | 99 99 | 92.93 | bs_ill_bs_contig3 contig_6
+		Skipping redundant alignment 297 553 | 1222304 1222048 | 257 257 | 91.05 | bs_ill_bs_contig991 contig_6
+		Skipping redundant alignment 105 294 | 1222497 1222308 | 190 190 | 92.63 | bs_ill_bs_contig991 contig_6
+		Skipping redundant alignment 8 169 | 1223707 1223868 | 162 162 | 95.06 | bs_ill_bs_contig13 contig_6
+		Skipping redundant alignment 2 100 | 1224712 1224614 | 99 99 | 92.93 | bs_ill_bs_contig3 contig_6
+		Skipping redundant alignment 105 553 | 1227721 1227273 | 449 449 | 91.31 | bs_ill_bs_contig991 contig_6
+		Skipping redundant alignment 32362 32495 | 1265156 1265289 | 134 134 | 91.04 | bs_ill_bs_contig13 contig_6
+		Skipping redundant alignment 99187 99345 | 1671487 1671645 | 159 159 | 93.12 | bs_ill_bs_contig3 contig_6
+		Skipping redundant alignment 92 173 | 2584499 2584418 | 82 82 | 93.9 | bs_ill_bs_contig1326 contig_6
+		Skipping redundant alignment 105 553 | 2586346 2586794 | 449 449 | 90.87 | bs_ill_bs_contig991 contig_6
+		Skipping redundant alignment 496 720 | 2587378 2587154 | 225 225 | 96.0 | bs_ill_bs_contig1146 contig_6
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 11737.4, number of alignments: 30, unaligned bases: 2705730
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 14607 out of 2720337 non-N bases (0.54%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 2720337 (number of Ns: 0) and total length of all aligns is 14607
+		Alignment: 8 169 | 828 667 | 162 162 | 95.06 | bs_ill_bs_contig13 contig_6
+		Alignment: 1 1068 | 781 1848 | 1068 1068 | 93.74 | bs_ill_bs_contig839 contig_6
+		Alignment: 491 720 | 3077 2848 | 230 230 | 95.22 | bs_ill_bs_contig1146 contig_6
+		Alignment: 95 183 | 3474 3386 | 89 89 | 91.01 | bs_ill_bs_contig1146 contig_6
+		Alignment: 1 982 | 5227 4246 | 982 982 | 92.73 | bs_ill_bs_contig933 contig_6
+		Alignment: 1 1068 | 114265 115333 | 1068 1069 | 93.74 | bs_ill_bs_contig839 contig_6
+		Alignment: 480 720 | 116574 116334 | 241 241 | 95.44 | bs_ill_bs_contig1146 contig_6
+		Alignment: 95 184 | 116959 116870 | 90 90 | 91.11 | bs_ill_bs_contig1146 contig_6
+		Alignment: 1 982 | 118664 117681 | 982 984 | 92.63 | bs_ill_bs_contig933 contig_6
+		Alignment: 2 120 | 118611 118729 | 119 119 | 90.76 | bs_ill_bs_contig3 contig_6
+		Alignment: 261 334 | 118871 118944 | 74 74 | 93.24 | bs_ill_bs_contig3 contig_6
+		Alignment: 2 120 | 1174829 1174711 | 119 119 | 90.76 | bs_ill_bs_contig3 contig_6
+		Alignment: 1 982 | 1174776 1175757 | 982 982 | 92.83 | bs_ill_bs_contig933 contig_6
+		Alignment: 95 184 | 1176495 1176584 | 90 90 | 91.11 | bs_ill_bs_contig1146 contig_6
+		Alignment: 480 720 | 1176880 1177120 | 241 241 | 95.02 | bs_ill_bs_contig1146 contig_6
+		Alignment: 1 1068 | 1179188 1178120 | 1068 1069 | 93.74 | bs_ill_bs_contig839 contig_6
+		Alignment: 1 982 | 1219397 1220380 | 982 984 | 92.63 | bs_ill_bs_contig933 contig_6
+		Alignment: 95 183 | 1221061 1221149 | 89 89 | 91.01 | bs_ill_bs_contig1146 contig_6
+		Alignment: 495 720 | 1221462 1221687 | 226 226 | 95.58 | bs_ill_bs_contig1146 contig_6
+		Alignment: 1 1068 | 1223754 1222688 | 1068 1067 | 93.56 | bs_ill_bs_contig839 contig_6
+		Alignment: 1 982 | 1224659 1225641 | 982 983 | 92.83 | bs_ill_bs_contig933 contig_6
+		Alignment: 95 184 | 1226288 1226377 | 90 90 | 91.11 | bs_ill_bs_contig1146 contig_6
+		Alignment: 493 720 | 1226685 1226912 | 228 228 | 95.61 | bs_ill_bs_contig1146 contig_6
+		Alignment: 1 1068 | 1228979 1227912 | 1068 1068 | 93.83 | bs_ill_bs_contig839 contig_6
+		Alignment: 8 169 | 1228932 1229093 | 162 162 | 95.06 | bs_ill_bs_contig13 contig_6
+		Alignment: 8 169 | 2585135 2584974 | 162 162 | 95.06 | bs_ill_bs_contig13 contig_6
+		Alignment: 1 1068 | 2585088 2586155 | 1068 1068 | 93.74 | bs_ill_bs_contig839 contig_6
+		Alignment: 1 982 | 2589531 2588548 | 982 984 | 92.84 | bs_ill_bs_contig933 contig_6
+		Alignment: 2 120 | 2589478 2589596 | 119 119 | 90.76 | bs_ill_bs_contig3 contig_6
+		Alignment: 261 334 | 2589738 2589811 | 74 74 | 93.24 | bs_ill_bs_contig3 contig_6
+		Unaligned bases: 2705730
+
+CONTIG: contig_14 (2845342bp)
+Best alignment score: 971.1 (LEN: 1052, IDY: 92.31), Total number of alignments: 38
+			Looking for the best set of alignments (out of 38 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 33226 33297 | 24768 24697 | 72 72 | 95.83 | bs_ill_bs_contig13 contig_14
+		Skipping redundant alignment 32338 32486 | 25656 25508 | 149 149 | 91.95 | bs_ill_bs_contig13 contig_14
+		Skipping redundant alignment 9 171 | 244916 245078 | 163 163 | 93.25 | bs_ill_bs_contig13 contig_14
+		Skipping redundant alignment 9 171 | 688122 688284 | 163 163 | 93.25 | bs_ill_bs_contig13 contig_14
+		Skipping redundant alignment 99180 99264 | 690840 690756 | 85 85 | 96.47 | bs_ill_bs_contig3 contig_14
+		Skipping redundant alignment 99074 99146 | 690928 690856 | 73 73 | 98.63 | bs_ill_bs_contig3 contig_14
+		Skipping redundant alignment 18222 18295 | 1308048 1308121 | 74 74 | 98.65 | bs_ill_bs_contig20 contig_14
+		Skipping redundant alignment 103891 103967 | 1308783 1308707 | 77 77 | 97.4 | bs_ill_bs_contig12 contig_14
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 9277.2, number of alignments: 30, unaligned bases: 2832895
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 12447 out of 2845342 non-N bases (0.44%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 2845342 (number of Ns: 0) and total length of all aligns is 12447
+		Alignment: 1 965 | 240783 241746 | 965 964 | 93.89 | bs_ill_bs_contig933 contig_14
+		Alignment: 95 215 | 242286 242406 | 121 121 | 93.39 | bs_ill_bs_contig1146 contig_14
+		Alignment: 483 720 | 242666 242903 | 238 238 | 93.28 | bs_ill_bs_contig1146 contig_14
+		Alignment: 666 889 | 243152 242929 | 224 224 | 91.52 | bs_ill_bs_contig991 contig_14
+		Alignment: 337 569 | 243482 243250 | 233 233 | 93.56 | bs_ill_bs_contig991 contig_14
+		Alignment: 108 329 | 243714 243493 | 222 222 | 91.44 | bs_ill_bs_contig991 contig_14
+		Alignment: 1 1065 | 244962 243911 | 1065 1052 | 92.31 | bs_ill_bs_contig839 contig_14
+		Alignment: 1 965 | 683887 684850 | 965 964 | 93.89 | bs_ill_bs_contig933 contig_14
+		Alignment: 95 215 | 685492 685612 | 121 121 | 93.39 | bs_ill_bs_contig1146 contig_14
+		Alignment: 483 720 | 685872 686109 | 238 238 | 93.28 | bs_ill_bs_contig1146 contig_14
+		Alignment: 666 889 | 686358 686135 | 224 224 | 91.07 | bs_ill_bs_contig991 contig_14
+		Alignment: 337 569 | 686688 686456 | 233 233 | 93.56 | bs_ill_bs_contig991 contig_14
+		Alignment: 108 329 | 686920 686699 | 222 222 | 91.44 | bs_ill_bs_contig991 contig_14
+		Alignment: 1 1065 | 688168 687117 | 1065 1052 | 92.31 | bs_ill_bs_contig839 contig_14
+		Alignment: 1 965 | 1303101 1304064 | 965 964 | 93.89 | bs_ill_bs_contig933 contig_14
+		Alignment: 95 215 | 1304706 1304826 | 121 121 | 92.56 | bs_ill_bs_contig1146 contig_14
+		Alignment: 483 720 | 1305086 1305323 | 238 238 | 93.28 | bs_ill_bs_contig1146 contig_14
+		Alignment: 666 889 | 1305572 1305349 | 224 224 | 91.52 | bs_ill_bs_contig991 contig_14
+		Alignment: 337 569 | 1305902 1305670 | 233 233 | 93.56 | bs_ill_bs_contig991 contig_14
+		Alignment: 108 329 | 1306134 1305913 | 222 222 | 91.44 | bs_ill_bs_contig991 contig_14
+		Alignment: 1 1065 | 1307382 1306331 | 1065 1052 | 92.31 | bs_ill_bs_contig839 contig_14
+		Alignment: 9 171 | 1307336 1307498 | 163 163 | 93.25 | bs_ill_bs_contig13 contig_14
+		Alignment: 9 171 | 2811325 2811163 | 163 163 | 93.25 | bs_ill_bs_contig13 contig_14
+		Alignment: 1 1065 | 2811279 2812329 | 1065 1051 | 92.21 | bs_ill_bs_contig839 contig_14
+		Alignment: 108 329 | 2812526 2812747 | 222 222 | 91.44 | bs_ill_bs_contig991 contig_14
+		Alignment: 337 569 | 2812758 2812990 | 233 233 | 93.56 | bs_ill_bs_contig991 contig_14
+		Alignment: 666 889 | 2813088 2813311 | 224 224 | 91.07 | bs_ill_bs_contig991 contig_14
+		Alignment: 483 720 | 2813574 2813337 | 238 238 | 93.28 | bs_ill_bs_contig1146 contig_14
+		Alignment: 95 215 | 2813954 2813834 | 121 121 | 93.39 | bs_ill_bs_contig1146 contig_14
+		Alignment: 1 965 | 2815457 2814494 | 965 964 | 93.89 | bs_ill_bs_contig933 contig_14
+		Unaligned bases: 2832895
+
+CONTIG: contig_15 (1936941bp)
+Best alignment score: 974.4 (LEN: 1054, IDY: 92.45), Total number of alignments: 29
+			Looking for the best set of alignments (out of 29 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 492 714 | 232328 232550 | 223 223 | 92.83 | bs_ill_bs_contig1146 contig_15
+		Skipping redundant alignment 364 569 | 233110 232905 | 206 206 | 90.29 | bs_ill_bs_contig991 contig_15
+		Skipping redundant alignment 26 176 | 1705176 1705326 | 151 151 | 91.39 | bs_ill_bs_contig933 contig_15
+		Skipping redundant alignment 766 967 | 1705915 1706116 | 202 202 | 95.05 | bs_ill_bs_contig933 contig_15
+		Skipping redundant alignment 367 569 | 1743242 1743040 | 203 203 | 90.15 | bs_ill_bs_contig991 contig_15
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 4720.6, number of alignments: 24, unaligned bases: 1928868
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 8073 out of 1936941 non-N bases (0.42%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 1936941 (number of Ns: 0) and total length of all aligns is 8073
+		Alignment: 26 166 | 230879 231019 | 141 141 | 92.2 | bs_ill_bs_contig933 contig_15
+		Alignment: 766 967 | 231605 231806 | 202 202 | 95.05 | bs_ill_bs_contig933 contig_15
+		Alignment: 597 1065 | 233921 233464 | 469 458 | 90.34 | bs_ill_bs_contig839 contig_15
+		Alignment: 1 457 | 234426 233971 | 457 456 | 97.81 | bs_ill_bs_contig839 contig_15
+		Alignment: 299 371 | 235096 235168 | 73 73 | 97.26 | bs_ill_bs_contig1326 contig_15
+		Alignment: 1 1065 | 1041472 1042525 | 1065 1054 | 92.45 | bs_ill_bs_contig839 contig_15
+		Alignment: 492 714 | 1043752 1043530 | 223 223 | 92.83 | bs_ill_bs_contig1146 contig_15
+		Alignment: 95 211 | 1044147 1044031 | 117 117 | 93.16 | bs_ill_bs_contig1146 contig_15
+		Alignment: 766 967 | 1045052 1044851 | 202 202 | 95.05 | bs_ill_bs_contig933 contig_15
+		Alignment: 26 176 | 1045791 1045641 | 151 151 | 91.39 | bs_ill_bs_contig933 contig_15
+		Alignment: 95 211 | 1706625 1706741 | 117 117 | 94.02 | bs_ill_bs_contig1146 contig_15
+		Alignment: 492 714 | 1707020 1707242 | 223 223 | 92.83 | bs_ill_bs_contig1146 contig_15
+		Alignment: 1 1065 | 1709311 1708258 | 1065 1054 | 92.36 | bs_ill_bs_contig839 contig_15
+		Alignment: 26 176 | 1740669 1740819 | 151 151 | 91.39 | bs_ill_bs_contig933 contig_15
+		Alignment: 651 758 | 1741291 1741398 | 108 108 | 91.67 | bs_ill_bs_contig933 contig_15
+		Alignment: 766 967 | 1741406 1741607 | 202 202 | 95.05 | bs_ill_bs_contig933 contig_15
+		Alignment: 95 211 | 1742068 1742184 | 117 117 | 94.02 | bs_ill_bs_contig1146 contig_15
+		Alignment: 492 714 | 1742463 1742685 | 223 223 | 92.83 | bs_ill_bs_contig1146 contig_15
+		Alignment: 1 1065 | 1744543 1743490 | 1065 1054 | 92.45 | bs_ill_bs_contig839 contig_15
+		Alignment: 26 176 | 1817217 1817367 | 151 151 | 91.39 | bs_ill_bs_contig933 contig_15
+		Alignment: 766 967 | 1817956 1818157 | 202 202 | 95.05 | bs_ill_bs_contig933 contig_15
+		Alignment: 95 211 | 1818674 1818790 | 117 117 | 94.02 | bs_ill_bs_contig1146 contig_15
+		Alignment: 492 714 | 1819069 1819291 | 223 223 | 92.83 | bs_ill_bs_contig1146 contig_15
+		Alignment: 1 1065 | 1821358 1820305 | 1065 1054 | 92.45 | bs_ill_bs_contig839 contig_15
+		Unaligned bases: 1928868
+
+CONTIG: contig_56 (4757899bp)
+Best alignment score: 208.0 (LEN: 230, IDY: 90.43), Total number of alignments: 27
+			Looking for the best set of alignments (out of 27 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 582 727 | 810143 809998 | 146 146 | 90.41 | bs_ill_bs_contig933 contig_56
+		Skipping redundant alignment 472 543 | 810252 810181 | 72 72 | 95.83 | bs_ill_bs_contig933 contig_56
+		Skipping redundant alignment 61 290 | 1472671 1472900 | 230 230 | 90.43 | bs_ill_bs_contig839 contig_56
+		Skipping redundant alignment 707 789 | 1473317 1473399 | 83 83 | 97.59 | bs_ill_bs_contig839 contig_56
+		Skipping redundant alignment 582 727 | 1476327 1476182 | 146 146 | 90.41 | bs_ill_bs_contig933 contig_56
+		Skipping redundant alignment 472 543 | 1476436 1476365 | 72 72 | 95.83 | bs_ill_bs_contig933 contig_56
+		Skipping redundant alignment 472 543 | 1992802 1992873 | 72 72 | 95.83 | bs_ill_bs_contig933 contig_56
+		Skipping redundant alignment 582 727 | 1992911 1993056 | 146 146 | 90.41 | bs_ill_bs_contig933 contig_56
+		Skipping redundant alignment 707 789 | 1996080 1995998 | 83 83 | 97.59 | bs_ill_bs_contig839 contig_56
+		Skipping redundant alignment 61 290 | 1996726 1996497 | 230 230 | 90.43 | bs_ill_bs_contig839 contig_56
+		Skipping redundant alignment 472 543 | 2087890 2087961 | 72 72 | 95.83 | bs_ill_bs_contig933 contig_56
+		Skipping redundant alignment 582 727 | 2087999 2088144 | 146 146 | 90.41 | bs_ill_bs_contig933 contig_56
+		Skipping redundant alignment 707 789 | 2091009 2090927 | 83 83 | 97.59 | bs_ill_bs_contig839 contig_56
+		Skipping redundant alignment 61 290 | 2091655 2091426 | 230 230 | 90.43 | bs_ill_bs_contig839 contig_56
+		Skipping redundant alignment 472 543 | 2243106 2243177 | 72 72 | 95.83 | bs_ill_bs_contig933 contig_56
+		Skipping redundant alignment 582 727 | 2243215 2243360 | 146 146 | 90.41 | bs_ill_bs_contig933 contig_56
+		Skipping redundant alignment 707 789 | 2246386 2246304 | 83 83 | 97.59 | bs_ill_bs_contig839 contig_56
+		Skipping redundant alignment 472 543 | 2286019 2286090 | 72 72 | 95.83 | bs_ill_bs_contig933 contig_56
+		Skipping redundant alignment 582 727 | 2286128 2286273 | 146 146 | 90.41 | bs_ill_bs_contig933 contig_56
+		Skipping redundant alignment 707 789 | 2289138 2289056 | 83 83 | 97.59 | bs_ill_bs_contig839 contig_56
+		Skipping redundant alignment 61 290 | 2289784 2289555 | 230 230 | 90.43 | bs_ill_bs_contig839 contig_56
+		Skipping redundant alignment 472 543 | 3035484 3035555 | 72 72 | 95.83 | bs_ill_bs_contig933 contig_56
+		Skipping redundant alignment 582 728 | 3035593 3035739 | 147 147 | 90.48 | bs_ill_bs_contig933 contig_56
+		Skipping redundant alignment 707 789 | 3038862 3038780 | 83 83 | 97.59 | bs_ill_bs_contig839 contig_56
+		Skipping redundant alignment 61 290 | 3039508 3039279 | 230 230 | 90.43 | bs_ill_bs_contig839 contig_56
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 289.0, number of alignments: 2, unaligned bases: 4757586
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 313 out of 4757899 non-N bases (0.01%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 4757899 (number of Ns: 0) and total length of all aligns is 313
+		Alignment: 61 290 | 806487 806716 | 230 230 | 90.43 | bs_ill_bs_contig839 contig_56
+		Alignment: 707 789 | 807133 807215 | 83 83 | 97.59 | bs_ill_bs_contig839 contig_56
+		Unaligned bases: 4757586
+
+CONTIG: contig_57 (4764706bp)
+Best alignment score: 208.0 (LEN: 230, IDY: 90.43), Total number of alignments: 28
+			Looking for the best set of alignments (out of 28 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 61 290 | 304165 304394 | 230 230 | 90.43 | bs_ill_bs_contig839 contig_57
+		Skipping redundant alignment 707 789 | 304811 304893 | 83 83 | 97.59 | bs_ill_bs_contig839 contig_57
+		Skipping redundant alignment 603 728 | 307874 307749 | 126 126 | 92.86 | bs_ill_bs_contig933 contig_57
+		Skipping redundant alignment 472 543 | 308004 307933 | 72 72 | 95.83 | bs_ill_bs_contig933 contig_57
+		Skipping redundant alignment 61 290 | 1012389 1012618 | 230 230 | 90.43 | bs_ill_bs_contig839 contig_57
+		Skipping redundant alignment 707 789 | 1013035 1013117 | 83 83 | 97.59 | bs_ill_bs_contig839 contig_57
+		Skipping redundant alignment 603 728 | 1016105 1015980 | 126 126 | 92.86 | bs_ill_bs_contig933 contig_57
+		Skipping redundant alignment 472 543 | 1016235 1016164 | 72 72 | 95.83 | bs_ill_bs_contig933 contig_57
+		Skipping redundant alignment 472 543 | 1556644 1556715 | 72 72 | 95.83 | bs_ill_bs_contig933 contig_57
+		Skipping redundant alignment 603 728 | 1556773 1556898 | 126 126 | 92.86 | bs_ill_bs_contig933 contig_57
+		Skipping redundant alignment 707 789 | 1559760 1559678 | 83 83 | 97.59 | bs_ill_bs_contig839 contig_57
+		Skipping redundant alignment 61 290 | 1560406 1560177 | 230 230 | 90.43 | bs_ill_bs_contig839 contig_57
+		Skipping redundant alignment 472 543 | 1650256 1650327 | 72 72 | 95.83 | bs_ill_bs_contig933 contig_57
+		Skipping redundant alignment 603 728 | 1650386 1650511 | 126 126 | 92.86 | bs_ill_bs_contig933 contig_57
+		Skipping redundant alignment 707 789 | 1653467 1653385 | 83 83 | 97.59 | bs_ill_bs_contig839 contig_57
+		Skipping redundant alignment 61 290 | 1654113 1653884 | 230 230 | 90.43 | bs_ill_bs_contig839 contig_57
+		Skipping redundant alignment 472 543 | 1781369 1781440 | 72 72 | 95.83 | bs_ill_bs_contig933 contig_57
+		Skipping redundant alignment 603 728 | 1781499 1781624 | 126 126 | 92.86 | bs_ill_bs_contig933 contig_57
+		Skipping redundant alignment 472 543 | 1822763 1822834 | 72 72 | 95.83 | bs_ill_bs_contig933 contig_57
+		Skipping redundant alignment 603 728 | 1822893 1823018 | 126 126 | 92.86 | bs_ill_bs_contig933 contig_57
+		Skipping redundant alignment 472 543 | 2470518 2470589 | 72 72 | 95.83 | bs_ill_bs_contig933 contig_57
+		Skipping redundant alignment 603 727 | 2470647 2470771 | 125 125 | 92.8 | bs_ill_bs_contig933 contig_57
+		Skipping redundant alignment 707 789 | 2473726 2473644 | 83 83 | 97.59 | bs_ill_bs_contig839 contig_57
+		Skipping redundant alignment 61 290 | 2474372 2474143 | 230 230 | 90.43 | bs_ill_bs_contig839 contig_57
+			The best set is below. Score: 292.0, number of alignments: 4, unaligned bases: 4764080
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 626 out of 4764706 non-N bases (0.01%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 4764706 (number of Ns: 0) and total length of all aligns is 626
+		Alignment: 707 789 | 1784486 1784404 | 83 83 | 97.59 | bs_ill_bs_contig839 contig_57
+		Alignment: 61 290 | 1785132 1784903 | 230 230 | 90.43 | bs_ill_bs_contig839 contig_57
+		Alignment: 707 789 | 1825880 1825798 | 83 83 | 97.59 | bs_ill_bs_contig839 contig_57
+		Alignment: 61 290 | 1826525 1826296 | 230 230 | 90.43 | bs_ill_bs_contig839 contig_57
+		Unaligned bases: 4764080
+
+Analyzing coverage...
+Writing SNPs into /media3/lucia/zymo_mock_community/asms_sin_cuantizar/asm_flye/metaquast-r10/runs_per_reference/bs_ill/contigs_reports/minimap_output/racon_r2_r10_3.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /media3/lucia/zymo_mock_community/asms_sin_cuantizar/asm_flye/metaquast-r10/runs_per_reference/bs_ill/contigs_reports/minimap_output/racon_r2_r10_3.used_snps.gz
+
+Results:
+	Local Misassemblies: 13
+	Misassemblies: 33
+		Relocations: 0
+		Translocations: 33
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassemblies caused by fragmented reference: 49
+	Misassembled Contigs: 1
+	Misassembled Contig Bases: 4045342
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 7 part
+Half Unaligned Contigs with Misassemblies: 6
+Unaligned Contig Bases: 19965416
+
+Ambiguously Mapped Contigs: 5
+Total Bases in Ambiguously Mapped Contigs: 15252468
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 3985667
+
+	SNPs: 3905
+	Insertions: 804
+	Deletions: 2213
+

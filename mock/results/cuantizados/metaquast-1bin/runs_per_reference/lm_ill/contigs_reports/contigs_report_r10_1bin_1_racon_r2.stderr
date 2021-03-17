@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.109*1.09] collected minimizers
+[M::mm_idx_gen::0.131*1.08] sorted minimizers
+[M::main::0.131*1.08] loaded/built the index for 16 target sequence(s)
+[M::mm_mapopt_update::0.135*1.07] mid_occ = 200
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 16
+[M::mm_idx_stat::0.139*1.07] distinct minimizers: 295157 (99.81% are singletons); average occurrences: 1.002; average spacing: 10.000
+[M::worker_pipeline::1.450*1.01] mapped 7 sequences
+[M::main] Version: 2.11-r797
+[M::main] CMD: /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 1 /media3/lucia/zymo_mock_community/asms_cuantizados/v5_13-2-21_1bin/metaquast-1bin/quast_corrected_input/lm_ill.fa /media3/lucia/zymo_mock_community/asms_cuantizados/v5_13-2-21_1bin/metaquast-1bin/quast_corrected_input/r10_1bin_1_racon_r2_to_lm_ill.fasta
+[M::main] Real time: 1.461 sec; CPU: 1.471 sec

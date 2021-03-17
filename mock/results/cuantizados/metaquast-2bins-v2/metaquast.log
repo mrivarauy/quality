@@ -1,0 +1,180 @@
+/usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/EGG-INFO/scripts/metaquast.py --no-icarus --fragmented --min-identity 90 --min-contig 5000 --threads 24 -r /media3/lucia/zymo_mock_community/illumina_ref_asm/bac/ -o metaquast-2bins-v2 r10-2bins-v2_1-MP.fasta r10-2bins-v2_1-MP-helen.fasta r10-2bins-v2_1-r1-medaka.fasta r10-2bins-v2_1-r2-medaka.fasta r10-2bins-v2_1-racon_r1.fasta r10-2bins-v2_1-racon_r2.fasta r10-2bins-v2_1-raw.fasta r10-2bins-v2_2-MP.fasta r10-2bins-v2_2-MP-helen.fasta r10-2bins-v2_2-r1-medaka.fasta r10-2bins-v2_2-r2-medaka.fasta r10-2bins-v2_2-racon_r1.fasta r10-2bins-v2_2-racon_r2.fasta r10-2bins-v2_2-raw.fasta r10-2bins-v2_3-MP.fasta r10-2bins-v2_3-MP-helen.fasta r10-2bins-v2_3-r1-medaka.fasta r10-2bins-v2_3-r2-medaka.fasta r10-2bins-v2_3-racon_r1.fasta r10-2bins-v2_3-racon_r2.fasta r10-2bins-v2_3-raw.fasta
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-4.15.0-135-generic-x86_64-with-Ubuntu-18.04-bionic (linux_64)
+  Python version: 2.7.17
+  CPUs number: 32
+
+Started: 2021-02-14 12:38:03
+
+Logging to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/metaquast.log
+
+Reference(s):
+  /media3/lucia/zymo_mock_community/illumina_ref_asm/bac/bs-ill.fa ==> bs_ill
+  /media3/lucia/zymo_mock_community/illumina_ref_asm/bac/ec-ill.fa ==> ec_ill
+  /media3/lucia/zymo_mock_community/illumina_ref_asm/bac/ef-ill.fa ==> ef_ill
+  /media3/lucia/zymo_mock_community/illumina_ref_asm/bac/lf-ill.fa ==> lf_ill
+  /media3/lucia/zymo_mock_community/illumina_ref_asm/bac/lm-ill.fa ==> lm_ill
+  /media3/lucia/zymo_mock_community/illumina_ref_asm/bac/pa-ill.fa ==> pa_ill
+  /media3/lucia/zymo_mock_community/illumina_ref_asm/bac/sa-ill.fa ==> sa_ill
+  /media3/lucia/zymo_mock_community/illumina_ref_asm/bac/se-ill.fa ==> se_ill
+  All references were combined in combined_reference.fasta
+
+Contigs:
+  Pre-processing...
+  1  r10-2bins-v2_1-MP.fasta ==> r10_2bins_v2_1_MP
+  2  r10-2bins-v2_1-MP-helen.fasta ==> r10_2bins_v2_1_MP_helen
+  3  r10-2bins-v2_1-r1-medaka.fasta ==> r10_2bins_v2_1_r1_medaka
+  4  r10-2bins-v2_1-r2-medaka.fasta ==> r10_2bins_v2_1_r2_medaka
+  5  r10-2bins-v2_1-racon_r1.fasta ==> r10_2bins_v2_1_racon_r1
+  6  r10-2bins-v2_1-racon_r2.fasta ==> r10_2bins_v2_1_racon_r2
+  7  r10-2bins-v2_1-raw.fasta ==> r10_2bins_v2_1_raw
+  8  r10-2bins-v2_2-MP.fasta ==> r10_2bins_v2_2_MP
+  9  r10-2bins-v2_2-MP-helen.fasta ==> r10_2bins_v2_2_MP_helen
+  10 r10-2bins-v2_2-r1-medaka.fasta ==> r10_2bins_v2_2_r1_medaka
+  11 r10-2bins-v2_2-r2-medaka.fasta ==> r10_2bins_v2_2_r2_medaka
+  12 r10-2bins-v2_2-racon_r1.fasta ==> r10_2bins_v2_2_racon_r1
+  13 r10-2bins-v2_2-racon_r2.fasta ==> r10_2bins_v2_2_racon_r2
+  14 r10-2bins-v2_2-raw.fasta ==> r10_2bins_v2_2_raw
+  15 r10-2bins-v2_3-MP.fasta ==> r10_2bins_v2_3_MP
+  16 r10-2bins-v2_3-MP-helen.fasta ==> r10_2bins_v2_3_MP_helen
+  17 r10-2bins-v2_3-r1-medaka.fasta ==> r10_2bins_v2_3_r1_medaka
+  18 r10-2bins-v2_3-r2-medaka.fasta ==> r10_2bins_v2_3_r2_medaka
+  19 r10-2bins-v2_3-racon_r1.fasta ==> r10_2bins_v2_3_racon_r1
+  20 r10-2bins-v2_3-racon_r2.fasta ==> r10_2bins_v2_3_racon_r2
+  21 r10-2bins-v2_3-raw.fasta ==> r10_2bins_v2_3_raw
+
+Starting quast.py for the combined reference...
+(logging to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/combined_reference/quast.log)
+
+Partitioning contigs into bins aligned to each reference..
+  processing r10_2bins_v2_1_MP
+  processing r10_2bins_v2_1_MP_helen
+  processing r10_2bins_v2_1_r1_medaka
+  processing r10_2bins_v2_1_r2_medaka
+  processing r10_2bins_v2_1_racon_r1
+  processing r10_2bins_v2_1_racon_r2
+  processing r10_2bins_v2_1_raw
+  processing r10_2bins_v2_2_MP
+  processing r10_2bins_v2_2_MP_helen
+  processing r10_2bins_v2_2_r1_medaka
+  processing r10_2bins_v2_2_r2_medaka
+  processing r10_2bins_v2_3_MP
+  processing r10_2bins_v2_2_racon_r1
+  processing r10_2bins_v2_2_racon_r2
+  processing r10_2bins_v2_3_r1_medaka
+  processing r10_2bins_v2_2_raw
+  processing r10_2bins_v2_3_MP_helen
+  processing r10_2bins_v2_3_r2_medaka
+  processing r10_2bins_v2_3_racon_r1
+  processing r10_2bins_v2_3_racon_r2
+  processing r10_2bins_v2_3_raw
+
+Starting quast.py for the contigs aligned to bs_ill... (logging to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/runs_per_reference/bs_ill/quast.log)
+
+Starting quast.py for the contigs aligned to ec_ill... (logging to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/runs_per_reference/ec_ill/quast.log)
+
+Starting quast.py for the contigs aligned to ef_ill... (logging to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/runs_per_reference/ef_ill/quast.log)
+
+Starting quast.py for the contigs aligned to lf_ill... (logging to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/runs_per_reference/lf_ill/quast.log)
+
+Starting quast.py for the contigs aligned to lm_ill... (logging to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/runs_per_reference/lm_ill/quast.log)
+
+Starting quast.py for the contigs aligned to pa_ill... (logging to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/runs_per_reference/pa_ill/quast.log)
+
+Starting quast.py for the contigs aligned to sa_ill... (logging to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/runs_per_reference/sa_ill/quast.log)
+
+Starting quast.py for the contigs aligned to se_ill... (logging to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/runs_per_reference/se_ill/quast.log)
+
+Skipping quast.py for the contigs not aligned anywhere (everything is aligned!)
+
+2021-02-14 12:46:36
+Summarizing results...
+  Drawing # contigs metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/num_contigs.pdf
+  Drawing Largest contig metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/Largest_contig.pdf
+  Drawing Total length metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/Total_length.pdf
+  Drawing Largest alignment metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/Largest_alignment.pdf
+  Drawing Total aligned length metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/Total_aligned_length.pdf
+  Drawing Total length (>= 10000 bp) metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/Total_length_(ge_10000_bp).pdf
+  Drawing Total length (>= 50000 bp) metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/Total_length_(ge_50000_bp).pdf
+  Drawing # misassemblies metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/num_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_1_MP...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_1_MP_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_1_MP_helen...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_1_MP_helen_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_1_r1_medaka...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_1_r1_medaka_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_1_r2_medaka...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_1_r2_medaka_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_1_racon_r1...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_1_racon_r1_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_1_racon_r2...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_1_racon_r2_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_1_raw...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_1_raw_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_2_MP...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_2_MP_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_2_MP_helen...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_2_MP_helen_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_2_r1_medaka...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_2_r1_medaka_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_2_r2_medaka...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_2_r2_medaka_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_2_racon_r1...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_2_racon_r1_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_2_racon_r2...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_2_racon_r2_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_2_raw...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_2_raw_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_3_MP...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_3_MP_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_3_MP_helen...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_3_MP_helen_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_3_r1_medaka...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_3_r1_medaka_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_3_r2_medaka...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_3_r2_medaka_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_3_racon_r1...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_3_racon_r1_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_3_racon_r2...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_3_racon_r2_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for r10_2bins_v2_3_raw...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/r10_2bins_v2_3_raw_misassemblies.pdf
+  Drawing Misassembled contigs length metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/Misassembled_contigs_length.pdf
+  Drawing # mismatches per 100 kbp metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/num_mismatches_per_100_kbp.pdf
+  Drawing # indels per 100 kbp metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/num_indels_per_100_kbp.pdf
+  Drawing # N's per 100 kbp metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/num_Ns_per_100_kbp.pdf
+  Drawing Genome fraction (%) metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/Genome_fraction.pdf
+  Drawing Duplication ratio metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/Duplication_ratio.pdf
+  Drawing NGA50 metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/NGA50.pdf
+  Drawing LGA50 metaQUAST summary plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/PDF/LGA50.pdf
+
+  Text versions of reports and plots for each metric (for all references and assemblies) are saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/summary/
+  Extended version of HTML-report (for all references and assemblies) is saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/report.html
+
+MetaQUAST finished.
+  Log is saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v4_13-2-21_2bins/metaquast-2bins-v2/metaquast.log
+
+Finished: 2021-02-14 12:46:42
+Elapsed time: 0:08:38.795498
+Total NOTICEs: 11; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

@@ -1,0 +1,473 @@
+/usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/EGG-INFO/scripts/quast.py --no-icarus --fragmented --min-identity 90 --min-contig 5000 --threads 28 --colors #E31A1C,#1F78B4,#33A02C,#6A3D9A,#FF7F00,#800000,#A6CEE3,#B2DF8A,#333300,#CCCC00,#000080,#008080,#00FF00,#E31A1C,#1F78B4,#33A02C,#6A3D9A,#FF7F00,#800000,#A6CEE3,#B2DF8A --ls solid,solid,solid,solid,solid,solid,solid,solid,solid,solid,solid,solid,solid,solid,solid,solid,solid,solid,solid,solid,solid --no-check-meta --contig-thresholds 5000,10000,25000,50000 /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_MP_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_MP_helen_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_r1_medaka_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_r2_medaka_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_racon_r1_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_racon_r2_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_raw_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_MP_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_MP_helen_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_r1_medaka_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_r2_medaka_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_racon_r1_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_racon_r2_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_raw_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_MP_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_MP_helen_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_r1_medaka_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_r2_medaka_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_racon_r1_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_racon_r2_to_pa_ill.fasta /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_raw_to_pa_ill.fasta -R /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/pa_ill.fa -o /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill --labels "r10_1bin_v2_1_MP, r10_1bin_v2_1_MP_helen, r10_1bin_v2_1_r1_medaka, r10_1bin_v2_1_r2_medaka, r10_1bin_v2_1_racon_r1, r10_1bin_v2_1_racon_r2, r10_1bin_v2_1_raw, r10_1bin_v2_2_MP, r10_1bin_v2_2_MP_helen, r10_1bin_v2_2_r1_medaka, r10_1bin_v2_2_r2_medaka, r10_1bin_v2_2_racon_r1, r10_1bin_v2_2_racon_r2, r10_1bin_v2_2_raw, r10_1bin_v2_3_MP, r10_1bin_v2_3_MP_helen, r10_1bin_v2_3_r1_medaka, r10_1bin_v2_3_r2_medaka, r10_1bin_v2_3_racon_r1, r10_1bin_v2_3_racon_r2, r10_1bin_v2_3_raw"
+
+Started: 2021-02-28 09:36:33
+
+Logging to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/quast.log
+
+CWD: /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin
+Main parameters: 
+  MODE: meta, threads: 28, minimum contig length: 5000, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/pa_ill.fa ==> pa_ill
+
+Contigs:
+  Pre-processing...
+  1  /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_MP_to_pa_ill.fasta ==> r10_1bin_v2_1_MP
+  2  /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_MP_helen_to_pa_ill.fasta ==> r10_1bin_v2_1_MP_helen
+  3  /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_r1_medaka_to_pa_ill.fasta ==> r10_1bin_v2_1_r1_medaka
+  4  /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_r2_medaka_to_pa_ill.fasta ==> r10_1bin_v2_1_r2_medaka
+  5  /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_racon_r1_to_pa_ill.fasta ==> r10_1bin_v2_1_racon_r1
+  6  /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_racon_r2_to_pa_ill.fasta ==> r10_1bin_v2_1_racon_r2
+  7  /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_raw_to_pa_ill.fasta ==> r10_1bin_v2_1_raw
+  8  /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_MP_to_pa_ill.fasta ==> r10_1bin_v2_2_MP
+  9  /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_MP_helen_to_pa_ill.fasta ==> r10_1bin_v2_2_MP_helen
+  10 /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_r1_medaka_to_pa_ill.fasta ==> r10_1bin_v2_2_r1_medaka
+  11 /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_r2_medaka_to_pa_ill.fasta ==> r10_1bin_v2_2_r2_medaka
+  12 /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_racon_r1_to_pa_ill.fasta ==> r10_1bin_v2_2_racon_r1
+  13 /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_racon_r2_to_pa_ill.fasta ==> r10_1bin_v2_2_racon_r2
+  14 /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_raw_to_pa_ill.fasta ==> r10_1bin_v2_2_raw
+  15 /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_MP_to_pa_ill.fasta ==> r10_1bin_v2_3_MP
+  16 /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_MP_helen_to_pa_ill.fasta ==> r10_1bin_v2_3_MP_helen
+  17 /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_r1_medaka_to_pa_ill.fasta ==> r10_1bin_v2_3_r1_medaka
+  18 /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_r2_medaka_to_pa_ill.fasta ==> r10_1bin_v2_3_r2_medaka
+  19 /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_racon_r1_to_pa_ill.fasta ==> r10_1bin_v2_3_racon_r1
+  20 /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_racon_r2_to_pa_ill.fasta ==> r10_1bin_v2_3_racon_r2
+  21 /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_raw_to_pa_ill.fasta ==> r10_1bin_v2_3_raw
+
+2021-02-28 09:36:34
+Running Basic statistics processor...
+  Reference genome:
+    pa_ill.fa, length = 6728151, num fragments = 83, GC % = 66.21
+  Contig files: 
+    1  r10_1bin_v2_1_MP
+    2  r10_1bin_v2_1_MP_helen
+    3  r10_1bin_v2_1_r1_medaka
+    4  r10_1bin_v2_1_r2_medaka
+    5  r10_1bin_v2_1_racon_r1
+    6  r10_1bin_v2_1_racon_r2
+    7  r10_1bin_v2_1_raw
+    8  r10_1bin_v2_2_MP
+    9  r10_1bin_v2_2_MP_helen
+    10 r10_1bin_v2_2_r1_medaka
+    11 r10_1bin_v2_2_r2_medaka
+    12 r10_1bin_v2_2_racon_r1
+    13 r10_1bin_v2_2_racon_r2
+    14 r10_1bin_v2_2_raw
+    15 r10_1bin_v2_3_MP
+    16 r10_1bin_v2_3_MP_helen
+    17 r10_1bin_v2_3_r1_medaka
+    18 r10_1bin_v2_3_r2_medaka
+    19 r10_1bin_v2_3_racon_r1
+    20 r10_1bin_v2_3_racon_r2
+    21 r10_1bin_v2_3_raw
+  Calculating N50 and L50...
+    1  r10_1bin_v2_1_MP, N50 = 4758918, L50 = 3, Total length = 30867141, GC % = 49.50, # N's per 100 kbp =  0.00
+    2  r10_1bin_v2_1_MP_helen, N50 = 4757927, L50 = 3, Total length = 30861676, GC % = 49.51, # N's per 100 kbp =  0.03
+    3  r10_1bin_v2_1_r1_medaka, N50 = 4758579, L50 = 3, Total length = 30864248, GC % = 49.50, # N's per 100 kbp =  0.00
+    4  r10_1bin_v2_1_r2_medaka, N50 = 4758111, L50 = 3, Total length = 30856517, GC % = 49.50, # N's per 100 kbp =  0.00
+    5  r10_1bin_v2_1_racon_r1, N50 = 4757861, L50 = 3, Total length = 30851576, GC % = 49.49, # N's per 100 kbp =  0.00
+    6  r10_1bin_v2_1_racon_r2, N50 = 4757873, L50 = 3, Total length = 30847638, GC % = 49.49, # N's per 100 kbp =  0.00
+    7  r10_1bin_v2_1_raw, N50 = 4755626, L50 = 3, Total length = 30847730, GC % = 49.48, # N's per 100 kbp =  0.00
+    8  r10_1bin_v2_2_MP, N50 = 4758939, L50 = 3, Total length = 30866597, GC % = 49.50, # N's per 100 kbp =  0.00
+    9  r10_1bin_v2_2_MP_helen, N50 = 4757856, L50 = 3, Total length = 30861823, GC % = 49.51, # N's per 100 kbp =  0.00
+    10 r10_1bin_v2_2_r1_medaka, N50 = 4758583, L50 = 3, Total length = 30864057, GC % = 49.50, # N's per 100 kbp =  0.00
+    11 r10_1bin_v2_2_r2_medaka, N50 = 4758093, L50 = 3, Total length = 30853121, GC % = 49.50, # N's per 100 kbp =  0.00
+    12 r10_1bin_v2_2_racon_r1, N50 = 4757899, L50 = 3, Total length = 30851361, GC % = 49.49, # N's per 100 kbp =  0.00
+    13 r10_1bin_v2_2_racon_r2, N50 = 4757820, L50 = 3, Total length = 30844132, GC % = 49.49, # N's per 100 kbp =  0.00
+    14 r10_1bin_v2_2_raw, N50 = 4756102, L50 = 3, Total length = 30848669, GC % = 49.48, # N's per 100 kbp =  0.00
+    15 r10_1bin_v2_3_MP, N50 = 4758920, L50 = 3, Total length = 30867787, GC % = 49.50, # N's per 100 kbp =  0.00
+    16 r10_1bin_v2_3_MP_helen, N50 = 4757780, L50 = 3, Total length = 30864288, GC % = 49.51, # N's per 100 kbp =  0.00
+    17 r10_1bin_v2_3_r1_medaka, N50 = 4758582, L50 = 3, Total length = 30867356, GC % = 49.50, # N's per 100 kbp =  0.00
+    18 r10_1bin_v2_3_r2_medaka, N50 = 4758118, L50 = 3, Total length = 30861838, GC % = 49.50, # N's per 100 kbp =  0.00
+    19 r10_1bin_v2_3_racon_r1, N50 = 4757872, L50 = 3, Total length = 30856703, GC % = 49.49, # N's per 100 kbp =  0.00
+    20 r10_1bin_v2_3_racon_r2, N50 = 4757851, L50 = 3, Total length = 30852242, GC % = 49.49, # N's per 100 kbp =  0.00
+    21 r10_1bin_v2_3_raw, N50 = 4755682, L50 = 3, Total length = 30851275, GC % = 49.48, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/GC_content_plot.pdf
+  Drawing r10_1bin_v2_1_MP GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_1_MP_GC_content_plot.pdf
+  Drawing r10_1bin_v2_1_MP_helen GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_1_MP_helen_GC_content_plot.pdf
+  Drawing r10_1bin_v2_1_r1_medaka GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_1_r1_medaka_GC_content_plot.pdf
+  Drawing r10_1bin_v2_1_r2_medaka GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_1_r2_medaka_GC_content_plot.pdf
+  Drawing r10_1bin_v2_1_racon_r1 GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_1_racon_r1_GC_content_plot.pdf
+  Drawing r10_1bin_v2_1_racon_r2 GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_1_racon_r2_GC_content_plot.pdf
+  Drawing r10_1bin_v2_1_raw GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_1_raw_GC_content_plot.pdf
+  Drawing r10_1bin_v2_2_MP GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_2_MP_GC_content_plot.pdf
+  Drawing r10_1bin_v2_2_MP_helen GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_2_MP_helen_GC_content_plot.pdf
+  Drawing r10_1bin_v2_2_r1_medaka GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_2_r1_medaka_GC_content_plot.pdf
+  Drawing r10_1bin_v2_2_r2_medaka GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_2_r2_medaka_GC_content_plot.pdf
+  Drawing r10_1bin_v2_2_racon_r1 GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_2_racon_r1_GC_content_plot.pdf
+  Drawing r10_1bin_v2_2_racon_r2 GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_2_racon_r2_GC_content_plot.pdf
+  Drawing r10_1bin_v2_2_raw GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_2_raw_GC_content_plot.pdf
+  Drawing r10_1bin_v2_3_MP GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_3_MP_GC_content_plot.pdf
+  Drawing r10_1bin_v2_3_MP_helen GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_3_MP_helen_GC_content_plot.pdf
+  Drawing r10_1bin_v2_3_r1_medaka GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_3_r1_medaka_GC_content_plot.pdf
+  Drawing r10_1bin_v2_3_r2_medaka GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_3_r2_medaka_GC_content_plot.pdf
+  Drawing r10_1bin_v2_3_racon_r1 GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_3_racon_r1_GC_content_plot.pdf
+  Drawing r10_1bin_v2_3_racon_r2 GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_3_racon_r2_GC_content_plot.pdf
+  Drawing r10_1bin_v2_3_raw GC content plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/basic_stats/r10_1bin_v2_3_raw_GC_content_plot.pdf
+Done.
+
+2021-02-28 09:36:57
+Running Contig analyzer...
+  1  r10_1bin_v2_1_MP
+  1  Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_1_MP.stdout and contigs_report_r10_1bin_v2_1_MP.stderr...
+  1  Aligning contigs to the reference
+  2  r10_1bin_v2_1_MP_helen
+  2  Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_1_MP_helen.stdout and contigs_report_r10_1bin_v2_1_MP_helen.stderr...
+  2  Aligning contigs to the reference
+  3  r10_1bin_v2_1_r1_medaka
+  3  Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_1_r1_medaka.stdout and contigs_report_r10_1bin_v2_1_r1_medaka.stderr...
+  3  Aligning contigs to the reference
+  4  r10_1bin_v2_1_r2_medaka
+  4  Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_1_r2_medaka.stdout and contigs_report_r10_1bin_v2_1_r2_medaka.stderr...
+  4  Aligning contigs to the reference
+  5  r10_1bin_v2_1_racon_r1
+  1  /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_MP_to_pa_ill.fasta > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_1_MP.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_1_MP.stderr
+  5  Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_1_racon_r1.stdout and contigs_report_r10_1bin_v2_1_racon_r1.stderr...
+  5  Aligning contigs to the reference
+  6  r10_1bin_v2_1_racon_r2
+  6  Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_1_racon_r2.stdout and contigs_report_r10_1bin_v2_1_racon_r2.stderr...
+  6  Aligning contigs to the reference
+  7  r10_1bin_v2_1_raw
+  7  Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_1_raw.stdout and contigs_report_r10_1bin_v2_1_raw.stderr...
+  7  Aligning contigs to the reference
+  8  r10_1bin_v2_2_MP
+  8  Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_2_MP.stdout and contigs_report_r10_1bin_v2_2_MP.stderr...
+  8  Aligning contigs to the reference
+  9  r10_1bin_v2_2_MP_helen
+  9  Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_2_MP_helen.stdout and contigs_report_r10_1bin_v2_2_MP_helen.stderr...
+  9  Aligning contigs to the reference
+  10 r10_1bin_v2_2_r1_medaka
+  10 Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_2_r1_medaka.stdout and contigs_report_r10_1bin_v2_2_r1_medaka.stderr...
+  10 Aligning contigs to the reference
+  11 r10_1bin_v2_2_r2_medaka
+  11 Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_2_r2_medaka.stdout and contigs_report_r10_1bin_v2_2_r2_medaka.stderr...
+  11 Aligning contigs to the reference
+  2  /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_MP_helen_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_1_MP_helen.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_1_MP_helen.stderr
+  3  /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_r1_medaka_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_1_r1_medaka.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_1_r1_medaka.stderr
+  12 r10_1bin_v2_2_racon_r1
+  12 Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_2_racon_r1.stdout and contigs_report_r10_1bin_v2_2_racon_r1.stderr...
+  12 Aligning contigs to the reference
+  13 r10_1bin_v2_2_racon_r2
+  14 r10_1bin_v2_2_raw
+  14 Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_2_raw.stdout and contigs_report_r10_1bin_v2_2_raw.stderr...
+  14 Aligning contigs to the reference
+  13 Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_2_racon_r2.stdout and contigs_report_r10_1bin_v2_2_racon_r2.stderr...
+  13 Aligning contigs to the reference
+  15 r10_1bin_v2_3_MP
+  15 Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_3_MP.stdout and contigs_report_r10_1bin_v2_3_MP.stderr...
+  15 Aligning contigs to the reference
+  4  /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_r2_medaka_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_1_r2_medaka.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_1_r2_medaka.stderr
+  16 r10_1bin_v2_3_MP_helen
+  16 Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_3_MP_helen.stdout and contigs_report_r10_1bin_v2_3_MP_helen.stderr...
+  16 Aligning contigs to the reference
+  17 r10_1bin_v2_3_r1_medaka
+  17 Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_3_r1_medaka.stdout and contigs_report_r10_1bin_v2_3_r1_medaka.stderr...
+  17 Aligning contigs to the reference
+  18 r10_1bin_v2_3_r2_medaka
+  18 Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_3_r2_medaka.stdout and contigs_report_r10_1bin_v2_3_r2_medaka.stderr...
+  18 Aligning contigs to the reference
+  5  /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_racon_r1_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_1_racon_r1.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_1_racon_r1.stderr
+  19 r10_1bin_v2_3_racon_r1
+  19 Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_3_racon_r1.stdout and contigs_report_r10_1bin_v2_3_racon_r1.stderr...
+  19 Aligning contigs to the reference
+  7  /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_raw_to_pa_ill.fasta > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_1_raw.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_1_raw.stderr
+  6  /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_1_racon_r2_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_1_racon_r2.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_1_racon_r2.stderr
+  20 r10_1bin_v2_3_racon_r2
+  20 Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_3_racon_r2.stdout and contigs_report_r10_1bin_v2_3_racon_r2.stderr...
+  21 r10_1bin_v2_3_raw
+  20 Aligning contigs to the reference
+  21 Logging to files /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_3_raw.stdout and contigs_report_r10_1bin_v2_3_raw.stderr...
+  21 Aligning contigs to the reference
+  8  /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_MP_to_pa_ill.fasta > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_2_MP.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_2_MP.stderr
+  9  /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_MP_helen_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_2_MP_helen.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_2_MP_helen.stderr
+  10 /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_r1_medaka_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_2_r1_medaka.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_2_r1_medaka.stderr
+  12 /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_racon_r1_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_2_racon_r1.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_2_racon_r1.stderr
+  11 /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_r2_medaka_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_2_r2_medaka.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_2_r2_medaka.stderr
+  14 /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_raw_to_pa_ill.fasta > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_2_raw.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_2_raw.stderr
+  13 /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_2_racon_r2_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_2_racon_r2.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_2_racon_r2.stderr
+  16 /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_MP_helen_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_3_MP_helen.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_3_MP_helen.stderr
+  15 /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_MP_to_pa_ill.fasta > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_3_MP.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_3_MP.stderr
+  17 /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_r1_medaka_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_3_r1_medaka.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_3_r1_medaka.stderr
+  18 /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_r2_medaka_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_3_r2_medaka.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_3_r2_medaka.stderr
+  21 /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_raw_to_pa_ill.fasta > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_3_raw.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_3_raw.stderr
+  19 /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_racon_r1_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_3_racon_r1.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_3_racon_r1.stderr
+  20 /usr/local/lib/python2.7/dist-packages/quast-5.0.2-py2.7.egg/quast_libs/minimap2/minimap2 \
+     -c -x asm10 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 1 metaquast-1bin-v2/quast_corrected_input/pa_ill.fa \
+     metaquast-1bin-v2/quast_corrected_input/r10_1bin_v2_3_racon_r2_to_pa_ill.fasta \
+     > metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/minimap_output/r10_1bin_v2_3_racon_r2.coords_tmp \
+     2>> metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/contigs_report_r10_1bin_v2_3_racon_r2.stderr
+  8  Analysis is finished.
+
+  10 Analysis is finished.
+
+  6  Analysis is finished.
+
+  20 Analysis is finished.
+
+  2  Analysis is finished.
+
+  3  Analysis is finished.
+
+  15 Analysis is finished.
+
+  9  Analysis is finished.
+
+  5  Analysis is finished.
+
+  16 Analysis is finished.
+
+  11 Analysis is finished.
+
+  4  Analysis is finished.
+
+  21 Analysis is finished.
+
+  18 Analysis is finished.
+
+  19 Analysis is finished.
+
+  12 Analysis is finished.
+
+  7  Analysis is finished.
+
+  13 Analysis is finished.
+
+  14 Analysis is finished.
+
+  17 Analysis is finished.
+
+  1  Analysis is finished.
+
+  Creating total report...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2021-02-28 09:37:04
+Running NA-NGA calculation...
+  1  r10_1bin_v2_1_MP, Largest alignment = 1547073, NA50 = None, NGA50 = 1274873, LA50 = None, LGA50 = 3
+  2  r10_1bin_v2_1_MP_helen, Largest alignment = 2052317, NA50 = None, NGA50 = 1371005, LA50 = None, LGA50 = 2
+  3  r10_1bin_v2_1_r1_medaka, Largest alignment = 2052330, NA50 = None, NGA50 = 1371012, LA50 = None, LGA50 = 2
+  4  r10_1bin_v2_1_r2_medaka, Largest alignment = 2052330, NA50 = None, NGA50 = 1371015, LA50 = None, LGA50 = 2
+  5  r10_1bin_v2_1_racon_r1, Largest alignment = 2052131, NA50 = None, NGA50 = 1370872, LA50 = None, LGA50 = 2
+  6  r10_1bin_v2_1_racon_r2, Largest alignment = 2052157, NA50 = None, NGA50 = 1370891, LA50 = None, LGA50 = 2
+  7  r10_1bin_v2_1_raw, Largest alignment = 1826402, NA50 = None, NGA50 = 940304, LA50 = None, LGA50 = 3
+  8  r10_1bin_v2_2_MP, Largest alignment = 1643838, NA50 = None, NGA50 = 1274471, LA50 = None, LGA50 = 3
+  9  r10_1bin_v2_2_MP_helen, Largest alignment = 1643817, NA50 = None, NGA50 = 1274462, LA50 = None, LGA50 = 3
+  10 r10_1bin_v2_2_r1_medaka, Largest alignment = 1643844, NA50 = None, NGA50 = 1274466, LA50 = None, LGA50 = 3
+  11 r10_1bin_v2_2_r2_medaka, Largest alignment = 1643848, NA50 = None, NGA50 = 1274470, LA50 = None, LGA50 = 3
+  12 r10_1bin_v2_2_racon_r1, Largest alignment = 1643649, NA50 = None, NGA50 = 1274325, LA50 = None, LGA50 = 3
+  13 r10_1bin_v2_2_racon_r2, Largest alignment = 1643690, NA50 = None, NGA50 = 1274335, LA50 = None, LGA50 = 3
+  14 r10_1bin_v2_2_raw, Largest alignment = 2098266, NA50 = None, NGA50 = 1471342, LA50 = None, LGA50 = 2
+  15 r10_1bin_v2_3_MP, Largest alignment = 1643839, NA50 = None, NGA50 = 1274461, LA50 = None, LGA50 = 3
+  16 r10_1bin_v2_3_MP_helen, Largest alignment = 2052185, NA50 = None, NGA50 = 1643838, LA50 = None, LGA50 = 2
+  17 r10_1bin_v2_3_r1_medaka, Largest alignment = 2052213, NA50 = None, NGA50 = 1643849, LA50 = None, LGA50 = 2
+  18 r10_1bin_v2_3_r2_medaka, Largest alignment = 2052213, NA50 = None, NGA50 = 1643849, LA50 = None, LGA50 = 2
+  19 r10_1bin_v2_3_racon_r1, Largest alignment = 2052050, NA50 = None, NGA50 = 1643649, LA50 = None, LGA50 = 2
+  20 r10_1bin_v2_3_racon_r2, Largest alignment = 2052085, NA50 = None, NGA50 = 1643667, LA50 = None, LGA50 = 2
+  21 r10_1bin_v2_3_raw, Largest alignment = 2098630, NA50 = None, NGA50 = 1471418, LA50 = None, LGA50 = 2
+  Drawing cumulative plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/aligned_stats/NGAx_plot.pdf
+Done.
+
+2021-02-28 09:37:08
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  1  r10_1bin_v2_1_MP
+  2  r10_1bin_v2_1_MP_helen
+  3  r10_1bin_v2_1_r1_medaka
+  4  r10_1bin_v2_1_r2_medaka
+  5  r10_1bin_v2_1_racon_r1
+  6  r10_1bin_v2_1_racon_r2
+  7  r10_1bin_v2_1_raw
+  8  r10_1bin_v2_2_MP
+  9  r10_1bin_v2_2_MP_helen
+  10 r10_1bin_v2_2_r1_medaka
+  11 r10_1bin_v2_2_r2_medaka
+  12 r10_1bin_v2_2_racon_r1
+  13 r10_1bin_v2_2_racon_r2
+  14 r10_1bin_v2_2_raw
+  15 r10_1bin_v2_3_MP
+  16 r10_1bin_v2_3_MP_helen
+  17 r10_1bin_v2_3_r1_medaka
+  18 r10_1bin_v2_3_r2_medaka
+  19 r10_1bin_v2_3_racon_r1
+  20 r10_1bin_v2_3_racon_r2
+  21 r10_1bin_v2_3_raw
+  2  Analysis is finished.
+  7  Analysis is finished.
+  1  Analysis is finished.
+  5  Analysis is finished.
+  3  Analysis is finished.
+  4  Analysis is finished.
+  6  Analysis is finished.
+  8  Analysis is finished.
+  10 Analysis is finished.
+  15 Analysis is finished.
+  16 Analysis is finished.
+  18 Analysis is finished.
+  9  Analysis is finished.
+  17 Analysis is finished.
+  20 Analysis is finished.
+  13 Analysis is finished.
+  21 Analysis is finished.
+  12 Analysis is finished.
+  14 Analysis is finished.
+  19 Analysis is finished.
+  11 Analysis is finished.
+  Drawing Genome fraction, % histogram...
+    saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2021-02-28 09:37:10
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating PDF with all tables and plots...
+Done
+
+2021-02-28 09:37:15
+RESULTS:
+  Text versions of total report are saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/report.html
+  PDF version (tables and plots) is saved to /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/pa_ill/report.pdf

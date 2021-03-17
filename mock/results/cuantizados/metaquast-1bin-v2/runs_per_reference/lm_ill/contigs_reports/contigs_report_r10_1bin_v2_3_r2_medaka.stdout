@@ -1,0 +1,530 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [lm_ill_lm_contig11]
+	Loaded [lm_ill_lm_contig10]
+	Loaded [lm_ill_lm_contig12]
+	Loaded [lm_ill_lm_contig21]
+	Loaded [lm_ill_lm_contig16]
+	Loaded [lm_ill_lm_contig37]
+	Loaded [lm_ill_lm_contig29]
+	Loaded [lm_ill_lm_contig2]
+	Loaded [lm_ill_lm_contig1]
+	Loaded [lm_ill_lm_contig3]
+	Loaded [lm_ill_lm_contig27]
+	Loaded [lm_ill_lm_contig5]
+	Loaded [lm_ill_lm_contig4]
+	Loaded [lm_ill_lm_contig7]
+	Loaded [lm_ill_lm_contig6]
+	Loaded [lm_ill_lm_contig8]
+	Total Regions: 16
+	Total Region Length: 2958570
+Analyzing contigs...
+CONTIG: contig_11 (2992047bp)
+Best alignment score: 538030.0 (LEN: 538030, IDY: 100.00), Total number of alignments: 56
+			Looking for the best set of alignments (out of 56 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 331 404 | 1389161 1389088 | 74 74 | 100.0 | lm_ill_lm_contig29 contig_11
+		Skipping redundant alignment 542673 542799 | 1389939 1390065 | 127 127 | 100.0 | lm_ill_lm_contig2 contig_11
+		Skipping redundant alignment 935 1665 | 261943 261213 | 731 731 | 91.24 | lm_ill_lm_contig11 contig_11
+		Skipping redundant alignment 1 363 | 262790 262428 | 363 363 | 91.46 | lm_ill_lm_contig11 contig_11
+		Skipping redundant alignment 2007 2579 | 265216 264644 | 573 573 | 91.62 | lm_ill_lm_contig11 contig_11
+		Skipping redundant alignment 1932 2006 | 265292 265218 | 75 75 | 93.33 | lm_ill_lm_contig11 contig_11
+		Skipping redundant alignment 1703 2447 | 1678934 1678190 | 745 745 | 92.44 | lm_ill_lm_contig10 contig_11
+		Skipping redundant alignment 1218 1870 | 1678319 1678971 | 653 653 | 96.02 | lm_ill_lm_contig11 contig_11
+		Skipping redundant alignment 461 532 | 376443 376372 | 72 72 | 100.0 | lm_ill_lm_contig29 contig_11
+		Skipping redundant alignment 1141 1216 | 376368 376443 | 76 76 | 100.0 | lm_ill_lm_contig1 contig_11
+		Skipping redundant alignment 782245 782323 | 376449 376371 | 79 79 | 100.0 | lm_ill_lm_contig1 contig_11
+		Skipping redundant alignment 666 745 | 597087 597008 | 80 80 | 97.5 | lm_ill_lm_contig1 contig_11
+		Skipping redundant alignment 232021 232164 | 597868 598011 | 144 144 | 100.0 | lm_ill_lm_contig5 contig_11
+		Skipping redundant alignment 862 935 | 601450 601377 | 74 74 | 100.0 | lm_ill_lm_contig1 contig_11
+		Skipping redundant alignment 1932 2508 | 1674540 1675116 | 577 577 | 94.97 | lm_ill_lm_contig11 contig_11
+		Skipping redundant alignment 862 935 | 1148036 1148109 | 74 74 | 100.0 | lm_ill_lm_contig1 contig_11
+		Skipping redundant alignment 331 404 | 2886989 2887062 | 74 74 | 100.0 | lm_ill_lm_contig29 contig_11
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 2985025.3, number of alignments: 39, unaligned bases: 5934
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 2986113 out of 2992047 non-N bases (99.80%))
+			Real Alignment 1: 307 3237 | 1 2931 | 2931 2931 | 100.0 | lm_ill_lm_contig12 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 2 and 3: 1 1778 | 4783 3006 | 1778 1778 --> 56 1778 | 4728 3006 | 1723 1723
+			Real Alignment 2: 56 1778 | 4728 3006 | 1723 1723 | 100.0 | lm_ill_lm_contig16 contig_11
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Excluding internal overlap of size 163 between Alignment 3 and 4: 1204919 1205589 | 259132 259801 | 671 670 --> 1205085 1205589 | 259295 259801 | 505 507
+			Real Alignment 3: 1 254567 | 4729 259294 | 254567 254566 | 100.0 | lm_ill_lm_contig4 contig_11
+			  Extensive misassembly (translocation) between these two alignments
+			Excluding internal overlap of size 55 between Alignment 4 and 5: 1205085 1205589 | 259295 259801 | 505 507 --> 1205085 1205534 | 259295 259746 | 450 452
+			Real Alignment 4: 1205085 1205534 | 259295 259746 | 450 452 | 95.69 | lm_ill_lm_contig1 contig_11
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 5: 1 1131 | 259747 260877 | 1131 1131 | 99.56 | lm_ill_lm_contig21 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 6: 1 3504 | 265006 261503 | 3504 3504 | 99.83 | lm_ill_lm_contig11 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 7 and 8: 277713 278439 | 267075 266349 | 727 727 --> 277713 278384 | 267075 266404 | 672 672
+			Real Alignment 7: 1 768 | 266403 265636 | 768 768 | 99.61 | lm_ill_lm_contig27 contig_11
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Excluding internal overlap of size 193 between Alignment 8 and 9: 277713 278384 | 267075 266404 | 672 672 --> 277906 278384 | 266882 266404 | 479 479
+			Real Alignment 8: 277906 278384 | 266882 266404 | 479 479 | 96.29 | lm_ill_lm_contig3 contig_11
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 9: 1 109542 | 266883 376425 | 109542 109543 | 100.0 | lm_ill_lm_contig7 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 10: 1 220359 | 597074 376717 | 220359 220358 | 100.0 | lm_ill_lm_contig6 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 11: 1 740 | 597210 597951 | 740 742 | 99.73 | lm_ill_lm_contig29 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 12: 1 3237 | 597957 601193 | 3237 3237 | 99.97 | lm_ill_lm_contig12 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 13 and 14: 1 1778 | 603296 601519 | 1778 1778 --> 56 1778 | 603241 601519 | 1723 1723
+			Real Alignment 13: 56 1778 | 603241 601519 | 1723 1723 | 100.0 | lm_ill_lm_contig16 contig_11
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Excluding internal overlap of size 318 between Alignment 14 and 15: 537510 542799 | 608532 603242 | 5290 5291 --> 537826 542799 | 608214 603242 | 4974 4973
+			Real Alignment 14: 537826 542799 | 608214 603242 | 4974 4973 | 99.79 | lm_ill_lm_contig2 contig_11
+			  Overlap between these two alignments (local misassembly). Inconsistency = -208
+			Excluding internal overlap of size 55 between Alignment 15 and 16: 1 1778 | 1146190 1147967 | 1778 1778 --> 56 1778 | 1146245 1147967 | 1723 1723
+			Real Alignment 15: 1 538033 | 1146244 608215 | 538033 538030 | 100.0 | lm_ill_lm_contig2 contig_11
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 16: 56 1778 | 1146245 1147967 | 1723 1723 | 99.94 | lm_ill_lm_contig16 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 17 and 18: 1 3237 | 1151530 1148293 | 3237 3238 --> 56 3237 | 1151475 1148293 | 3182 3183
+			Real Alignment 17: 56 3237 | 1151475 1148293 | 3182 3183 | 99.94 | lm_ill_lm_contig12 contig_11
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 18: 201553 232164 | 1182087 1151476 | 30612 30612 | 100.0 | lm_ill_lm_contig5 contig_11
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 19: 36861 201191 | 1346778 1182449 | 164331 164330 | 99.99 | lm_ill_lm_contig5 contig_11
+			  Gap between these two alignments (local misassembly). Inconsistency = -408
+			Excluding internal overlap of size 55 between Alignment 20 and 21: 1 1778 | 1383992 1385769 | 1778 1778 --> 56 1778 | 1384047 1385769 | 1723 1723
+			Real Alignment 20: 1 37130 | 1384046 1346917 | 37130 37130 | 99.99 | lm_ill_lm_contig5 contig_11
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 21: 56 1778 | 1384047 1385769 | 1723 1723 | 99.89 | lm_ill_lm_contig16 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 22: 1 3237 | 1389080 1385844 | 3237 3237 | 100.0 | lm_ill_lm_contig12 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 23: 1 595 | 1389285 1389881 | 595 597 | 98.66 | lm_ill_lm_contig37 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 24: 1 1778 | 1390011 1391788 | 1778 1778 | 99.94 | lm_ill_lm_contig16 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 25 and 26: 1 3237 | 1395099 1391863 | 3237 3237 --> 56 3237 | 1395044 1391863 | 3182 3182
+			Real Alignment 25: 56 3237 | 1395044 1391863 | 3182 3182 | 100.0 | lm_ill_lm_contig12 contig_11
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Excluding internal overlap of size 55 between Alignment 26 and 27: 1 768 | 1673429 1674196 | 768 768 --> 56 768 | 1673484 1674196 | 713 713
+			Real Alignment 26: 1 278439 | 1395045 1673483 | 278439 278439 | 100.0 | lm_ill_lm_contig3 contig_11
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 27: 56 768 | 1673484 1674196 | 713 713 | 99.22 | lm_ill_lm_contig27 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 28: 1 3660 | 1678431 1674772 | 3660 3660 | 99.73 | lm_ill_lm_contig10 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 29 and 30: 1 1131 | 1680232 1679102 | 1131 1131 --> 56 1131 | 1680177 1679102 | 1076 1076
+			Real Alignment 29: 56 1131 | 1680177 1679102 | 1076 1076 | 98.94 | lm_ill_lm_contig21 contig_11
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Excluding internal overlap of size 492 between Alignment 30 and 31: 904935 1205589 | 1980831 1680178 | 300655 300654 --> 905427 1205589 | 1980339 1680178 | 300163 300162
+			Real Alignment 30: 905427 1205589 | 1980339 1680178 | 300163 300162 | 99.99 | lm_ill_lm_contig1 contig_11
+			  Gap between these two alignments (local misassembly). Inconsistency = 414
+			Real Alignment 31: 476227 905012 | 2409198 1980340 | 428786 428859 | 99.98 | lm_ill_lm_contig1 contig_11
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 32: 475820 475911 | 2409605 2409514 | 92 92 | 100.0 | lm_ill_lm_contig1 contig_11
+			  Gap between these two alignments (local misassembly). Inconsistency = -882
+			Real Alignment 33: 476227 476309 | 2410080 2409998 | 83 83 | 97.59 | lm_ill_lm_contig1 contig_11
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Excluding internal overlap of size 36 between Alignment 34 and 35: 1 595 | 2886865 2886271 | 595 595 --> 1 559 | 2886865 2886307 | 559 559
+			Real Alignment 34: 1 475911 | 2886306 2410396 | 475911 475911 | 100.0 | lm_ill_lm_contig1 contig_11
+			  Indel (> 5bp) between these two alignments: deletion of length 36; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 35: 1 559 | 2886865 2886307 | 559 559 | 96.68 | lm_ill_lm_contig37 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Real Alignment 36: 1 3237 | 2887070 2890306 | 3237 3237 | 100.0 | lm_ill_lm_contig12 contig_11
+			  Not a misassembly [fragmentation of reference genome] between these two alignments
+			Excluding internal overlap of size 55 between Alignment 37 and 38: 1 1778 | 2892158 2890381 | 1778 1778 --> 56 1778 | 2892103 2890381 | 1723 1723
+			Real Alignment 37: 56 1778 | 2892103 2890381 | 1723 1723 | 99.94 | lm_ill_lm_contig16 contig_11
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Excluding internal overlap of size 55 between Alignment 38 and 39: 1 301 | 2991747 2992047 | 301 301 --> 56 301 | 2991802 2992047 | 246 246
+			Real Alignment 38: 1 99698 | 2892104 2991801 | 99698 99698 | 100.0 | lm_ill_lm_contig8 contig_11
+			  Indel (> 5bp) between these two alignments: deletion of length 55; 0 mismatches (number of Ns: 0) [fragmentation of reference genome]
+			Real Alignment 39: 56 301 | 2991802 2992047 | 246 246 | 99.67 | lm_ill_lm_contig12 contig_11
+		Unaligned bases: 5934
+
+CONTIG: contig_13 (2845429bp)
+Best alignment score: 35768.0 (LEN: 35768, IDY: 100.00), Total number of alignments: 52
+			Looking for the best set of alignments (out of 52 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 47636 47824 | 25457 25645 | 189 189 | 91.53 | lm_ill_lm_contig2 contig_13
+		Skipping redundant alignment 455 532 | 1308184 1308107 | 78 78 | 98.72 | lm_ill_lm_contig29 contig_13
+		Skipping redundant alignment 331 403 | 1308278 1308206 | 73 73 | 97.26 | lm_ill_lm_contig29 contig_13
+		Skipping redundant alignment 782157 782225 | 1308356 1308288 | 69 69 | 100.0 | lm_ill_lm_contig1 contig_13
+		Skipping redundant alignment 151 229 | 1308366 1308288 | 79 79 | 98.73 | lm_ill_lm_contig29 contig_13
+		Skipping redundant alignment 487 565 | 1308288 1308366 | 79 79 | 98.73 | lm_ill_lm_contig1 contig_13
+		Skipping redundant alignment 264 355 | 245844 245935 | 92 92 | 93.48 | lm_ill_lm_contig37 contig_13
+		Skipping redundant alignment 172110 172257 | 2597828 2597975 | 148 148 | 91.22 | lm_ill_lm_contig5 contig_13
+		Skipping redundant alignment 264 355 | 689074 689165 | 92 92 | 93.48 | lm_ill_lm_contig37 contig_13
+		Skipping redundant alignment 445 526 | 689261 689342 | 82 82 | 96.34 | lm_ill_lm_contig37 contig_13
+		Skipping redundant alignment 91616 91816 | 2120883 2121083 | 201 201 | 91.04 | lm_ill_lm_contig5 contig_13
+		Skipping redundant alignment 232 307 | 690410 690335 | 76 76 | 98.68 | lm_ill_lm_contig29 contig_13
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 47334.2, number of alignments: 40, unaligned bases: 2794623
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 50806 out of 2845429 non-N bases (1.79%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 2845429 (number of Ns: 0) and total length of all aligns is 50806
+		Alignment: 174 1725 | 240507 242069 | 1552 1563 | 90.95 | lm_ill_lm_contig16 contig_13
+		Alignment: 2977 3114 | 242437 242300 | 138 138 | 93.48 | lm_ill_lm_contig12 contig_13
+		Alignment: 2820 2949 | 242594 242465 | 130 130 | 91.54 | lm_ill_lm_contig12 contig_13
+		Alignment: 2474 2720 | 242933 242687 | 247 247 | 92.31 | lm_ill_lm_contig12 contig_13
+		Alignment: 2240 2418 | 243167 242989 | 179 179 | 94.41 | lm_ill_lm_contig12 contig_13
+		Alignment: 1914 2233 | 243493 243174 | 320 320 | 94.06 | lm_ill_lm_contig12 contig_13
+		Alignment: 912 1344 | 244482 244050 | 433 433 | 91.92 | lm_ill_lm_contig12 contig_13
+		Alignment: 296 907 | 245098 244487 | 612 612 | 94.28 | lm_ill_lm_contig12 contig_13
+		Alignment: 174 1725 | 683635 685197 | 1552 1563 | 90.95 | lm_ill_lm_contig16 contig_13
+		Alignment: 2977 3114 | 685667 685530 | 138 138 | 93.48 | lm_ill_lm_contig12 contig_13
+		Alignment: 2820 2949 | 685824 685695 | 130 130 | 91.54 | lm_ill_lm_contig12 contig_13
+		Alignment: 2474 2720 | 686163 685917 | 247 247 | 92.31 | lm_ill_lm_contig12 contig_13
+		Alignment: 2240 2418 | 686397 686219 | 179 179 | 94.41 | lm_ill_lm_contig12 contig_13
+		Alignment: 1914 2233 | 686723 686404 | 320 320 | 94.06 | lm_ill_lm_contig12 contig_13
+		Alignment: 912 1344 | 687712 687280 | 433 433 | 91.92 | lm_ill_lm_contig12 contig_13
+		Alignment: 296 907 | 688328 687717 | 612 612 | 94.28 | lm_ill_lm_contig12 contig_13
+		Alignment: 177 255 | 689536 689614 | 79 79 | 94.94 | lm_ill_lm_contig1 contig_13
+		Alignment: 397 484 | 689758 689845 | 88 88 | 93.18 | lm_ill_lm_contig1 contig_13
+		Alignment: 764 839 | 689959 690034 | 76 76 | 93.42 | lm_ill_lm_contig1 contig_13
+		Alignment: 862 936 | 690041 690115 | 75 75 | 100.0 | lm_ill_lm_contig1 contig_13
+		Alignment: 765 842 | 690623 690700 | 78 78 | 92.31 | lm_ill_lm_contig1 contig_13
+		Alignment: 860 938 | 690706 690784 | 79 79 | 100.0 | lm_ill_lm_contig1 contig_13
+		Alignment: 1143 1217 | 690893 690967 | 75 75 | 98.67 | lm_ill_lm_contig1 contig_13
+		Alignment: 174 1725 | 1302870 1304432 | 1552 1563 | 90.95 | lm_ill_lm_contig16 contig_13
+		Alignment: 2977 3114 | 1304902 1304765 | 138 138 | 92.75 | lm_ill_lm_contig12 contig_13
+		Alignment: 2820 2949 | 1305059 1304930 | 130 130 | 91.54 | lm_ill_lm_contig12 contig_13
+		Alignment: 2474 2720 | 1305398 1305152 | 247 247 | 92.31 | lm_ill_lm_contig12 contig_13
+		Alignment: 2240 2418 | 1305632 1305454 | 179 179 | 94.41 | lm_ill_lm_contig12 contig_13
+		Alignment: 1914 2233 | 1305958 1305639 | 320 320 | 94.06 | lm_ill_lm_contig12 contig_13
+		Alignment: 912 1344 | 1306947 1306515 | 433 433 | 91.92 | lm_ill_lm_contig12 contig_13
+		Alignment: 296 907 | 1307563 1306952 | 612 612 | 94.28 | lm_ill_lm_contig12 contig_13
+		Alignment: 81096 116864 | 2391522 2427289 | 35769 35768 | 100.0 | lm_ill_lm_contig6 contig_13
+		Alignment: 296 907 | 2811241 2811852 | 612 612 | 94.28 | lm_ill_lm_contig12 contig_13
+		Alignment: 912 1344 | 2811857 2812289 | 433 433 | 91.92 | lm_ill_lm_contig12 contig_13
+		Alignment: 1914 2233 | 2812846 2813165 | 320 320 | 94.06 | lm_ill_lm_contig12 contig_13
+		Alignment: 2240 2418 | 2813172 2813350 | 179 179 | 94.41 | lm_ill_lm_contig12 contig_13
+		Alignment: 2474 2720 | 2813406 2813652 | 247 247 | 92.31 | lm_ill_lm_contig12 contig_13
+		Alignment: 2820 2949 | 2813745 2813874 | 130 130 | 91.54 | lm_ill_lm_contig12 contig_13
+		Alignment: 2977 3114 | 2813902 2814039 | 138 138 | 93.48 | lm_ill_lm_contig12 contig_13
+		Alignment: 174 1725 | 2815832 2814270 | 1552 1563 | 90.95 | lm_ill_lm_contig16 contig_13
+		Unaligned bases: 2794623
+
+CONTIG: contig_2 (4045593bp)
+Best alignment score: 2672.6 (LEN: 2927, IDY: 91.31), Total number of alignments: 48
+			Looking for the best set of alignments (out of 48 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 233 306 | 1404053 1404126 | 74 74 | 95.95 | lm_ill_lm_contig29 contig_2
+		Skipping redundant alignment 325 408 | 1404131 1404214 | 84 84 | 92.86 | lm_ill_lm_contig29 contig_2
+		Skipping redundant alignment 459 534 | 1404217 1404292 | 76 76 | 98.68 | lm_ill_lm_contig29 contig_2
+		Skipping redundant alignment 1145 1217 | 2377403 2377475 | 73 73 | 100.0 | lm_ill_lm_contig1 contig_2
+		Skipping redundant alignment 1145 1217 | 1801104 1801032 | 73 73 | 100.0 | lm_ill_lm_contig1 contig_2
+		Skipping redundant alignment 1048 1138 | 1801225 1801135 | 91 91 | 94.51 | lm_ill_lm_contig1 contig_2
+		Skipping redundant alignment 461 532 | 2132669 2132740 | 72 72 | 100.0 | lm_ill_lm_contig29 contig_2
+		Skipping redundant alignment 1145 1216 | 2132740 2132669 | 72 72 | 100.0 | lm_ill_lm_contig1 contig_2
+		Skipping redundant alignment 782250 782322 | 2132668 2132740 | 73 73 | 100.0 | lm_ill_lm_contig1 contig_2
+		Skipping redundant alignment 782251 782322 | 2377474 2377403 | 72 72 | 100.0 | lm_ill_lm_contig1 contig_2
+		Skipping redundant alignment 449 595 | 2160929 2160791 | 147 139 | 91.16 | lm_ill_lm_contig37 contig_2
+		Skipping redundant alignment 449 522 | 3395574 3395647 | 74 74 | 97.3 | lm_ill_lm_contig37 contig_2
+		Skipping redundant alignment 47930 48004 | 2194140 2194214 | 75 75 | 90.67 | lm_ill_lm_contig2 contig_2
+		Skipping redundant alignment 17454 17572 | 2207709 2207591 | 119 119 | 90.76 | lm_ill_lm_contig3 contig_2
+		Skipping redundant alignment 449 522 | 2231148 2231075 | 74 74 | 97.3 | lm_ill_lm_contig37 contig_2
+		Skipping redundant alignment 176 248 | 2231436 2231364 | 73 73 | 97.26 | lm_ill_lm_contig37 contig_2
+		Skipping redundant alignment 174 248 | 3395295 3395369 | 75 75 | 96.0 | lm_ill_lm_contig37 contig_2
+		Skipping redundant alignment 460 532 | 2256932 2257004 | 73 73 | 100.0 | lm_ill_lm_contig29 contig_2
+		Skipping redundant alignment 782251 782323 | 2256933 2257005 | 73 73 | 100.0 | lm_ill_lm_contig1 contig_2
+		Skipping redundant alignment 1144 1225 | 2257005 2256924 | 82 82 | 100.0 | lm_ill_lm_contig1 contig_2
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 36290.8, number of alignments: 28, unaligned bases: 4000203
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 45390 out of 4045593 non-N bases (1.12%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 4045593 (number of Ns: 0) and total length of all aligns is 45390
+		Alignment: 197 3126 | 1404736 1407661 | 2930 2926 | 91.27 | lm_ill_lm_contig12 contig_2
+		Alignment: 174 1724 | 1409374 1407824 | 1551 1551 | 91.99 | lm_ill_lm_contig16 contig_2
+		Alignment: 196 3126 | 1697500 1700426 | 2931 2927 | 91.24 | lm_ill_lm_contig12 contig_2
+		Alignment: 174 1724 | 1702139 1700589 | 1551 1551 | 92.06 | lm_ill_lm_contig16 contig_2
+		Alignment: 197 3126 | 2150954 2153879 | 2930 2926 | 91.24 | lm_ill_lm_contig12 contig_2
+		Alignment: 174 1724 | 2155591 2154042 | 1551 1550 | 91.93 | lm_ill_lm_contig16 contig_2
+		Alignment: 196 3126 | 2155953 2158879 | 2931 2927 | 91.31 | lm_ill_lm_contig12 contig_2
+		Alignment: 174 1724 | 2160592 2159042 | 1551 1551 | 91.86 | lm_ill_lm_contig16 contig_2
+		Alignment: 196 3126 | 2161566 2164492 | 2931 2927 | 91.27 | lm_ill_lm_contig12 contig_2
+		Alignment: 174 1724 | 2166204 2164655 | 1551 1550 | 91.86 | lm_ill_lm_contig16 contig_2
+		Alignment: 197 3126 | 2226106 2229031 | 2930 2926 | 91.3 | lm_ill_lm_contig12 contig_2
+		Alignment: 174 1724 | 2230744 2229194 | 1551 1551 | 91.99 | lm_ill_lm_contig16 contig_2
+		Alignment: 197 3126 | 2232029 2234954 | 2930 2926 | 91.3 | lm_ill_lm_contig12 contig_2
+		Alignment: 174 1724 | 2236667 2235117 | 1551 1551 | 91.99 | lm_ill_lm_contig16 contig_2
+		Alignment: 197 3126 | 2292186 2295110 | 2930 2925 | 91.27 | lm_ill_lm_contig12 contig_2
+		Alignment: 174 1724 | 2297000 2295450 | 1551 1551 | 91.93 | lm_ill_lm_contig16 contig_2
+		Alignment: 197 3126 | 2312797 2315722 | 2930 2926 | 91.27 | lm_ill_lm_contig12 contig_2
+		Alignment: 174 1724 | 2317612 2316062 | 1551 1551 | 91.99 | lm_ill_lm_contig16 contig_2
+		Alignment: 459 533 | 2377476 2377402 | 75 75 | 100.0 | lm_ill_lm_contig29 contig_2
+		Alignment: 174 1724 | 3389985 3391535 | 1551 1551 | 91.93 | lm_ill_lm_contig16 contig_2
+		Alignment: 197 3126 | 3394623 3391698 | 2930 2926 | 91.31 | lm_ill_lm_contig12 contig_2
+		Alignment: 96 170 | 3395748 3395822 | 75 75 | 90.67 | lm_ill_lm_contig1 contig_2
+		Alignment: 181 256 | 3395827 3395902 | 76 76 | 97.37 | lm_ill_lm_contig1 contig_2
+		Alignment: 276 367 | 3395909 3396000 | 92 92 | 92.39 | lm_ill_lm_contig1 contig_2
+		Alignment: 405 482 | 3396016 3396093 | 78 78 | 93.59 | lm_ill_lm_contig1 contig_2
+		Alignment: 765 836 | 3396432 3396503 | 72 72 | 95.83 | lm_ill_lm_contig1 contig_2
+		Alignment: 859 935 | 3396519 3396595 | 77 77 | 94.81 | lm_ill_lm_contig1 contig_2
+		Alignment: 1145 1219 | 3396808 3396882 | 75 75 | 100.0 | lm_ill_lm_contig1 contig_2
+		Unaligned bases: 4000203
+
+CONTIG: contig_8 (2719599bp)
+Best alignment score: 1409.3 (LEN: 1554, IDY: 90.69), Total number of alignments: 62
+			Looking for the best set of alignments (out of 62 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 439 523 | 1316077 1316161 | 85 85 | 96.47 | lm_ill_lm_contig37 contig_8
+		Skipping redundant alignment 447 524 | 2680913 2680836 | 78 78 | 100.0 | lm_ill_lm_contig37 contig_8
+		Skipping redundant alignment 269 356 | 1315896 1315983 | 88 88 | 95.45 | lm_ill_lm_contig37 contig_8
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 16252.6, number of alignments: 59, unaligned bases: 2698420
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 21179 out of 2719599 non-N bases (0.78%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 2719599 (number of Ns: 0) and total length of all aligns is 21179
+		Alignment: 304 384 | 816 896 | 81 81 | 92.59 | lm_ill_lm_contig12 contig_8
+		Alignment: 396 958 | 908 1470 | 563 563 | 93.25 | lm_ill_lm_contig12 contig_8
+		Alignment: 965 1346 | 1477 1858 | 382 382 | 94.76 | lm_ill_lm_contig12 contig_8
+		Alignment: 1367 1447 | 1878 1958 | 81 81 | 97.53 | lm_ill_lm_contig12 contig_8
+		Alignment: 1677 1862 | 2190 2375 | 186 186 | 90.32 | lm_ill_lm_contig12 contig_8
+		Alignment: 1910 2127 | 2418 2635 | 218 218 | 91.74 | lm_ill_lm_contig12 contig_8
+		Alignment: 2427 2716 | 2933 3222 | 290 290 | 93.79 | lm_ill_lm_contig12 contig_8
+		Alignment: 2799 2950 | 3303 3454 | 152 152 | 92.11 | lm_ill_lm_contig12 contig_8
+		Alignment: 174 1724 | 5617 4066 | 1551 1552 | 90.5 | lm_ill_lm_contig16 contig_8
+		Alignment: 306593 306681 | 257685 257773 | 89 89 | 91.01 | lm_ill_lm_contig1 contig_8
+		Alignment: 306698 306806 | 257790 257898 | 109 109 | 91.74 | lm_ill_lm_contig1 contig_8
+		Alignment: 174 1724 | 1060908 1062460 | 1551 1553 | 90.5 | lm_ill_lm_contig16 contig_8
+		Alignment: 2799 2936 | 1063208 1063071 | 138 138 | 93.48 | lm_ill_lm_contig12 contig_8
+		Alignment: 2427 2712 | 1063577 1063292 | 286 286 | 93.71 | lm_ill_lm_contig12 contig_8
+		Alignment: 1910 2127 | 1064091 1063874 | 218 218 | 91.74 | lm_ill_lm_contig12 contig_8
+		Alignment: 1677 1862 | 1064319 1064134 | 186 186 | 90.32 | lm_ill_lm_contig12 contig_8
+		Alignment: 1367 1447 | 1064631 1064551 | 81 81 | 97.53 | lm_ill_lm_contig12 contig_8
+		Alignment: 965 1346 | 1065032 1064651 | 382 382 | 94.76 | lm_ill_lm_contig12 contig_8
+		Alignment: 396 701 | 1065602 1065297 | 306 306 | 97.71 | lm_ill_lm_contig12 contig_8
+		Alignment: 304 384 | 1065694 1065614 | 81 81 | 92.59 | lm_ill_lm_contig12 contig_8
+		Alignment: 174 1724 | 1174309 1175859 | 1551 1551 | 90.43 | lm_ill_lm_contig16 contig_8
+		Alignment: 2799 2936 | 1176653 1176516 | 138 138 | 93.48 | lm_ill_lm_contig12 contig_8
+		Alignment: 2427 2716 | 1177023 1176734 | 290 290 | 93.79 | lm_ill_lm_contig12 contig_8
+		Alignment: 1910 2127 | 1177538 1177321 | 218 218 | 91.74 | lm_ill_lm_contig12 contig_8
+		Alignment: 1677 1863 | 1177766 1177580 | 187 187 | 90.37 | lm_ill_lm_contig12 contig_8
+		Alignment: 1367 1447 | 1178078 1177998 | 81 81 | 97.53 | lm_ill_lm_contig12 contig_8
+		Alignment: 965 1346 | 1178479 1178098 | 382 382 | 94.76 | lm_ill_lm_contig12 contig_8
+		Alignment: 701 885 | 1178743 1178559 | 185 185 | 90.81 | lm_ill_lm_contig12 contig_8
+		Alignment: 396 700 | 1179049 1178745 | 305 305 | 97.7 | lm_ill_lm_contig12 contig_8
+		Alignment: 304 384 | 1179141 1179061 | 81 81 | 92.59 | lm_ill_lm_contig12 contig_8
+		Alignment: 174 1724 | 1310333 1311884 | 1551 1552 | 90.75 | lm_ill_lm_contig16 contig_8
+		Alignment: 2799 2936 | 1312682 1312545 | 138 138 | 93.48 | lm_ill_lm_contig12 contig_8
+		Alignment: 2427 2730 | 1313053 1312750 | 304 304 | 92.76 | lm_ill_lm_contig12 contig_8
+		Alignment: 1910 2127 | 1313568 1313351 | 218 218 | 91.74 | lm_ill_lm_contig12 contig_8
+		Alignment: 1677 1860 | 1313796 1313613 | 184 184 | 90.76 | lm_ill_lm_contig12 contig_8
+		Alignment: 1367 1447 | 1314108 1314028 | 81 81 | 97.53 | lm_ill_lm_contig12 contig_8
+		Alignment: 965 1346 | 1314509 1314128 | 382 382 | 94.76 | lm_ill_lm_contig12 contig_8
+		Alignment: 396 885 | 1315078 1314589 | 490 490 | 95.1 | lm_ill_lm_contig12 contig_8
+		Alignment: 304 384 | 1315170 1315090 | 81 81 | 92.59 | lm_ill_lm_contig12 contig_8
+		Alignment: 47306 47476 | 2634080 2634250 | 171 171 | 90.64 | lm_ill_lm_contig2 contig_8
+		Alignment: 47688 47884 | 2634462 2634658 | 197 197 | 90.86 | lm_ill_lm_contig2 contig_8
+		Alignment: 304 384 | 2670644 2670724 | 81 81 | 92.59 | lm_ill_lm_contig12 contig_8
+		Alignment: 396 958 | 2670736 2671298 | 563 563 | 93.25 | lm_ill_lm_contig12 contig_8
+		Alignment: 965 1346 | 2671305 2671686 | 382 382 | 94.76 | lm_ill_lm_contig12 contig_8
+		Alignment: 1367 1447 | 2671706 2671786 | 81 81 | 97.53 | lm_ill_lm_contig12 contig_8
+		Alignment: 1677 1863 | 2672018 2672204 | 187 187 | 90.37 | lm_ill_lm_contig12 contig_8
+		Alignment: 1910 2127 | 2672246 2672463 | 218 218 | 91.74 | lm_ill_lm_contig12 contig_8
+		Alignment: 2427 2730 | 2672762 2673065 | 304 304 | 92.76 | lm_ill_lm_contig12 contig_8
+		Alignment: 2799 2950 | 2673133 2673284 | 152 152 | 92.11 | lm_ill_lm_contig12 contig_8
+		Alignment: 174 1724 | 2675358 2673805 | 1551 1554 | 90.69 | lm_ill_lm_contig16 contig_8
+		Alignment: 304 384 | 2675868 2675948 | 81 81 | 92.59 | lm_ill_lm_contig12 contig_8
+		Alignment: 396 958 | 2675960 2676522 | 563 563 | 93.07 | lm_ill_lm_contig12 contig_8
+		Alignment: 965 1346 | 2676529 2676910 | 382 382 | 94.76 | lm_ill_lm_contig12 contig_8
+		Alignment: 1367 1447 | 2676930 2677010 | 81 81 | 97.53 | lm_ill_lm_contig12 contig_8
+		Alignment: 1677 1863 | 2677242 2677428 | 187 187 | 90.37 | lm_ill_lm_contig12 contig_8
+		Alignment: 1910 2127 | 2677470 2677687 | 218 218 | 91.74 | lm_ill_lm_contig12 contig_8
+		Alignment: 2427 2716 | 2677985 2678274 | 290 290 | 93.45 | lm_ill_lm_contig12 contig_8
+		Alignment: 2799 2950 | 2678355 2678506 | 152 152 | 92.11 | lm_ill_lm_contig12 contig_8
+		Alignment: 174 1724 | 2680612 2679060 | 1551 1553 | 90.5 | lm_ill_lm_contig16 contig_8
+		Unaligned bases: 2698420
+
+CONTIG: contig_14 (1943446bp)
+Best alignment score: 691.0 (LEN: 764, IDY: 90.45), Total number of alignments: 51
+			Looking for the best set of alignments (out of 51 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1101 1174 | 231603 231676 | 74 74 | 97.3 | lm_ill_lm_contig16 contig_14
+		Skipping redundant alignment 1529 1626 | 232042 232139 | 98 98 | 94.9 | lm_ill_lm_contig16 contig_14
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 9446.2, number of alignments: 49, unaligned bases: 1930372
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 13074 out of 1943446 non-N bases (0.67%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 1943446 (number of Ns: 0) and total length of all aligns is 13074
+		Alignment: 2995 3114 | 232559 232440 | 120 120 | 90.0 | lm_ill_lm_contig12 contig_14
+		Alignment: 2473 2718 | 233080 232835 | 246 246 | 91.06 | lm_ill_lm_contig12 contig_14
+		Alignment: 2157 2233 | 233398 233322 | 77 77 | 90.91 | lm_ill_lm_contig12 contig_14
+		Alignment: 1675 1898 | 233878 233655 | 224 224 | 90.18 | lm_ill_lm_contig12 contig_14
+		Alignment: 1369 1484 | 234186 234071 | 116 116 | 97.41 | lm_ill_lm_contig12 contig_14
+		Alignment: 1235 1345 | 234309 234199 | 111 111 | 93.69 | lm_ill_lm_contig12 contig_14
+		Alignment: 1077 1211 | 234467 234333 | 135 135 | 99.26 | lm_ill_lm_contig12 contig_14
+		Alignment: 302 849 | 235243 234697 | 548 547 | 95.8 | lm_ill_lm_contig12 contig_14
+		Alignment: 2 74 | 235614 235686 | 73 73 | 93.15 | lm_ill_lm_contig37 contig_14
+		Alignment: 174 247 | 235795 235868 | 74 74 | 97.3 | lm_ill_lm_contig37 contig_14
+		Alignment: 268 356 | 235886 235974 | 89 89 | 93.26 | lm_ill_lm_contig37 contig_14
+		Alignment: 447 524 | 236057 236134 | 78 78 | 94.87 | lm_ill_lm_contig37 contig_14
+		Alignment: 302 873 | 1044562 1045133 | 572 572 | 96.15 | lm_ill_lm_contig12 contig_14
+		Alignment: 914 1211 | 1045174 1045471 | 298 298 | 91.28 | lm_ill_lm_contig12 contig_14
+		Alignment: 1235 1345 | 1045495 1045605 | 111 111 | 93.69 | lm_ill_lm_contig12 contig_14
+		Alignment: 1369 1484 | 1045618 1045733 | 116 116 | 97.41 | lm_ill_lm_contig12 contig_14
+		Alignment: 1675 1898 | 1045926 1046149 | 224 224 | 90.18 | lm_ill_lm_contig12 contig_14
+		Alignment: 2157 2233 | 1046406 1046482 | 77 77 | 90.91 | lm_ill_lm_contig12 contig_14
+		Alignment: 2473 2718 | 1046724 1046969 | 246 246 | 91.06 | lm_ill_lm_contig12 contig_14
+		Alignment: 1342 1725 | 1048144 1047761 | 384 384 | 90.62 | lm_ill_lm_contig16 contig_14
+		Alignment: 411 1174 | 1049076 1048313 | 764 764 | 90.18 | lm_ill_lm_contig16 contig_14
+		Alignment: 411 1174 | 1709186 1709949 | 764 764 | 90.18 | lm_ill_lm_contig16 contig_14
+		Alignment: 1342 1725 | 1710118 1710501 | 384 384 | 90.36 | lm_ill_lm_contig16 contig_14
+		Alignment: 2473 2718 | 1711343 1711098 | 246 246 | 91.06 | lm_ill_lm_contig12 contig_14
+		Alignment: 2157 2233 | 1711661 1711585 | 77 77 | 90.91 | lm_ill_lm_contig12 contig_14
+		Alignment: 1675 1898 | 1712141 1711918 | 224 224 | 90.18 | lm_ill_lm_contig12 contig_14
+		Alignment: 1369 1484 | 1712449 1712334 | 116 116 | 97.41 | lm_ill_lm_contig12 contig_14
+		Alignment: 1235 1345 | 1712572 1712462 | 111 111 | 93.69 | lm_ill_lm_contig12 contig_14
+		Alignment: 914 1211 | 1712893 1712596 | 298 298 | 90.94 | lm_ill_lm_contig12 contig_14
+		Alignment: 302 873 | 1713505 1712934 | 572 572 | 96.15 | lm_ill_lm_contig12 contig_14
+		Alignment: 411 1174 | 1744710 1745473 | 764 764 | 90.31 | lm_ill_lm_contig16 contig_14
+		Alignment: 1342 1725 | 1745642 1746025 | 384 384 | 90.36 | lm_ill_lm_contig16 contig_14
+		Alignment: 2995 3114 | 1746346 1746227 | 120 120 | 90.0 | lm_ill_lm_contig12 contig_14
+		Alignment: 2473 2718 | 1746867 1746622 | 246 246 | 91.06 | lm_ill_lm_contig12 contig_14
+		Alignment: 2157 2233 | 1747185 1747109 | 77 77 | 92.21 | lm_ill_lm_contig12 contig_14
+		Alignment: 1675 1898 | 1747665 1747442 | 224 224 | 90.18 | lm_ill_lm_contig12 contig_14
+		Alignment: 1369 1484 | 1747973 1747858 | 116 116 | 97.41 | lm_ill_lm_contig12 contig_14
+		Alignment: 1235 1345 | 1748096 1747986 | 111 111 | 93.69 | lm_ill_lm_contig12 contig_14
+		Alignment: 914 1211 | 1748417 1748120 | 298 298 | 91.28 | lm_ill_lm_contig12 contig_14
+		Alignment: 302 873 | 1749029 1748458 | 572 572 | 96.15 | lm_ill_lm_contig12 contig_14
+		Alignment: 411 1174 | 1821603 1822366 | 764 764 | 90.45 | lm_ill_lm_contig16 contig_14
+		Alignment: 1342 1725 | 1822535 1822918 | 384 384 | 90.36 | lm_ill_lm_contig16 contig_14
+		Alignment: 2995 3114 | 1823434 1823315 | 120 120 | 90.0 | lm_ill_lm_contig12 contig_14
+		Alignment: 2473 2718 | 1823955 1823710 | 246 246 | 90.65 | lm_ill_lm_contig12 contig_14
+		Alignment: 2157 2233 | 1824273 1824197 | 77 77 | 90.91 | lm_ill_lm_contig12 contig_14
+		Alignment: 1369 1484 | 1825061 1824946 | 116 116 | 97.41 | lm_ill_lm_contig12 contig_14
+		Alignment: 1235 1345 | 1825184 1825074 | 111 111 | 93.69 | lm_ill_lm_contig12 contig_14
+		Alignment: 914 1211 | 1825505 1825208 | 298 298 | 90.94 | lm_ill_lm_contig12 contig_14
+		Alignment: 302 873 | 1826117 1825546 | 572 572 | 96.15 | lm_ill_lm_contig12 contig_14
+		Unaligned bases: 1930372
+
+CONTIG: contig_36 (4765361bp)
+Best alignment score: 118.0 (LEN: 126, IDY: 93.65), Total number of alignments: 35
+			Looking for the best set of alignments (out of 35 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1124 1206 | 2284273 2284355 | 83 83 | 97.59 | lm_ill_lm_contig12 contig_36
+		Skipping redundant alignment 1473 1587 | 2286933 2286819 | 115 115 | 93.91 | lm_ill_lm_contig16 contig_36
+		Skipping redundant alignment 1342 1416 | 2287064 2286990 | 75 75 | 90.67 | lm_ill_lm_contig16 contig_36
+		Skipping redundant alignment 1055 1174 | 2287353 2287234 | 120 120 | 95.83 | lm_ill_lm_contig16 contig_36
+		Skipping redundant alignment 924 995 | 2287483 2287412 | 72 72 | 97.22 | lm_ill_lm_contig16 contig_36
+		Skipping redundant alignment 1124 1206 | 2932194 2932276 | 83 83 | 97.59 | lm_ill_lm_contig12 contig_36
+		Skipping redundant alignment 1342 1416 | 4450704 4450778 | 75 75 | 90.67 | lm_ill_lm_contig16 contig_36
+		Skipping redundant alignment 1124 1206 | 2973594 2973676 | 83 83 | 97.59 | lm_ill_lm_contig12 contig_36
+		Skipping redundant alignment 1124 1206 | 4453479 4453397 | 83 83 | 97.59 | lm_ill_lm_contig12 contig_36
+		Skipping redundant alignment 1124 1206 | 3104626 3104708 | 83 83 | 97.59 | lm_ill_lm_contig12 contig_36
+		Skipping redundant alignment 1473 1587 | 4450835 4450949 | 115 115 | 93.91 | lm_ill_lm_contig16 contig_36
+		Skipping redundant alignment 1124 1206 | 3198346 3198428 | 83 83 | 97.59 | lm_ill_lm_contig12 contig_36
+		Skipping redundant alignment 924 995 | 3741955 3742026 | 72 72 | 97.22 | lm_ill_lm_contig16 contig_36
+		Skipping redundant alignment 1055 1180 | 3742085 3742210 | 126 126 | 93.65 | lm_ill_lm_contig16 contig_36
+		Skipping redundant alignment 1342 1416 | 3742374 3742448 | 75 75 | 90.67 | lm_ill_lm_contig16 contig_36
+		Skipping redundant alignment 1473 1587 | 3742505 3742619 | 115 115 | 93.91 | lm_ill_lm_contig16 contig_36
+		Skipping redundant alignment 1124 1206 | 3745155 3745073 | 83 83 | 97.59 | lm_ill_lm_contig12 contig_36
+		Skipping redundant alignment 924 995 | 4450285 4450356 | 72 72 | 97.22 | lm_ill_lm_contig16 contig_36
+		Skipping redundant alignment 1055 1180 | 4450415 4450540 | 126 126 | 93.65 | lm_ill_lm_contig16 contig_36
+			The best set is below. Score: 556.3, number of alignments: 16, unaligned bases: 4763809
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 1552 out of 4765361 non-N bases (0.03%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 4765361 (number of Ns: 0) and total length of all aligns is 1552
+		Alignment: 1473 1587 | 2934761 2934647 | 115 115 | 93.91 | lm_ill_lm_contig16 contig_36
+		Alignment: 1342 1416 | 2934892 2934818 | 75 75 | 90.67 | lm_ill_lm_contig16 contig_36
+		Alignment: 1055 1180 | 2935181 2935056 | 126 126 | 93.65 | lm_ill_lm_contig16 contig_36
+		Alignment: 924 995 | 2935311 2935240 | 72 72 | 97.22 | lm_ill_lm_contig16 contig_36
+		Alignment: 1473 1587 | 2976161 2976047 | 115 115 | 93.91 | lm_ill_lm_contig16 contig_36
+		Alignment: 1342 1416 | 2976292 2976218 | 75 75 | 90.67 | lm_ill_lm_contig16 contig_36
+		Alignment: 1055 1180 | 2976581 2976456 | 126 126 | 93.65 | lm_ill_lm_contig16 contig_36
+		Alignment: 924 995 | 2976711 2976640 | 72 72 | 97.22 | lm_ill_lm_contig16 contig_36
+		Alignment: 1473 1587 | 3107287 3107173 | 115 115 | 93.91 | lm_ill_lm_contig16 contig_36
+		Alignment: 1342 1416 | 3107418 3107344 | 75 75 | 90.67 | lm_ill_lm_contig16 contig_36
+		Alignment: 1055 1180 | 3107707 3107582 | 126 126 | 93.65 | lm_ill_lm_contig16 contig_36
+		Alignment: 924 995 | 3107837 3107766 | 72 72 | 97.22 | lm_ill_lm_contig16 contig_36
+		Alignment: 1473 1587 | 3200913 3200799 | 115 115 | 93.91 | lm_ill_lm_contig16 contig_36
+		Alignment: 1342 1416 | 3201044 3200970 | 75 75 | 90.67 | lm_ill_lm_contig16 contig_36
+		Alignment: 1055 1180 | 3201333 3201208 | 126 126 | 93.65 | lm_ill_lm_contig16 contig_36
+		Alignment: 924 995 | 3201463 3201392 | 72 72 | 97.22 | lm_ill_lm_contig16 contig_36
+		Unaligned bases: 4763809
+
+CONTIG: contig_58 (4758118bp)
+Best alignment score: 134.0 (LEN: 147, IDY: 91.16), Total number of alignments: 35
+			Looking for the best set of alignments (out of 35 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1124 1206 | 806892 806974 | 83 83 | 97.59 | lm_ill_lm_contig12 contig_58
+		Skipping redundant alignment 1473 1587 | 809461 809347 | 115 115 | 93.91 | lm_ill_lm_contig16 contig_58
+		Skipping redundant alignment 1342 1416 | 809592 809518 | 75 75 | 90.67 | lm_ill_lm_contig16 contig_58
+		Skipping redundant alignment 1034 1174 | 809902 809762 | 141 141 | 92.91 | lm_ill_lm_contig16 contig_58
+		Skipping redundant alignment 924 995 | 810011 809940 | 72 72 | 97.22 | lm_ill_lm_contig16 contig_58
+		Skipping redundant alignment 1124 1206 | 1473156 1473238 | 83 83 | 97.59 | lm_ill_lm_contig12 contig_58
+		Skipping redundant alignment 1473 1587 | 1475725 1475611 | 115 115 | 93.91 | lm_ill_lm_contig16 contig_58
+		Skipping redundant alignment 1342 1416 | 1475856 1475782 | 75 75 | 90.67 | lm_ill_lm_contig16 contig_58
+		Skipping redundant alignment 1034 1174 | 1476166 1476026 | 141 141 | 92.91 | lm_ill_lm_contig16 contig_58
+		Skipping redundant alignment 924 995 | 1476275 1476204 | 72 72 | 97.22 | lm_ill_lm_contig16 contig_58
+		Skipping redundant alignment 1124 1206 | 3038879 3038797 | 83 83 | 97.59 | lm_ill_lm_contig12 contig_58
+		Skipping redundant alignment 1124 1206 | 1995997 1995915 | 83 83 | 97.59 | lm_ill_lm_contig12 contig_58
+		Skipping redundant alignment 1124 1206 | 2090926 2090844 | 83 83 | 97.59 | lm_ill_lm_contig12 contig_58
+		Skipping redundant alignment 1342 1416 | 3035920 3035994 | 75 75 | 90.67 | lm_ill_lm_contig16 contig_58
+		Skipping redundant alignment 1124 1206 | 2246319 2246237 | 83 83 | 97.59 | lm_ill_lm_contig12 contig_58
+		Skipping redundant alignment 1473 1587 | 3036051 3036165 | 115 115 | 93.91 | lm_ill_lm_contig16 contig_58
+		Skipping redundant alignment 1124 1206 | 2289075 2288993 | 83 83 | 97.59 | lm_ill_lm_contig12 contig_58
+		Skipping redundant alignment 924 995 | 3035501 3035572 | 72 72 | 97.22 | lm_ill_lm_contig16 contig_58
+		Skipping redundant alignment 1034 1180 | 3035610 3035756 | 147 147 | 91.16 | lm_ill_lm_contig16 contig_58
+			The best set is below. Score: 593.1, number of alignments: 16, unaligned bases: 4756506
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 1612 out of 4758118 non-N bases (0.03%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 4758118 (number of Ns: 0) and total length of all aligns is 1612
+		Alignment: 924 995 | 1992719 1992790 | 72 72 | 97.22 | lm_ill_lm_contig16 contig_58
+		Alignment: 1034 1174 | 1992828 1992968 | 141 141 | 92.91 | lm_ill_lm_contig16 contig_58
+		Alignment: 1342 1416 | 1993138 1993212 | 75 75 | 90.67 | lm_ill_lm_contig16 contig_58
+		Alignment: 1473 1587 | 1993269 1993383 | 115 115 | 93.91 | lm_ill_lm_contig16 contig_58
+		Alignment: 924 995 | 2087807 2087878 | 72 72 | 97.22 | lm_ill_lm_contig16 contig_58
+		Alignment: 1034 1174 | 2087916 2088056 | 141 141 | 92.91 | lm_ill_lm_contig16 contig_58
+		Alignment: 1342 1416 | 2088226 2088300 | 75 75 | 90.67 | lm_ill_lm_contig16 contig_58
+		Alignment: 1473 1587 | 2088357 2088471 | 115 115 | 93.91 | lm_ill_lm_contig16 contig_58
+		Alignment: 924 995 | 2243041 2243112 | 72 72 | 97.22 | lm_ill_lm_contig16 contig_58
+		Alignment: 1034 1174 | 2243150 2243290 | 141 141 | 92.91 | lm_ill_lm_contig16 contig_58
+		Alignment: 1342 1416 | 2243460 2243534 | 75 75 | 90.67 | lm_ill_lm_contig16 contig_58
+		Alignment: 1473 1587 | 2243591 2243705 | 115 115 | 93.91 | lm_ill_lm_contig16 contig_58
+		Alignment: 924 995 | 2285956 2286027 | 72 72 | 97.22 | lm_ill_lm_contig16 contig_58
+		Alignment: 1034 1174 | 2286065 2286205 | 141 141 | 92.91 | lm_ill_lm_contig16 contig_58
+		Alignment: 1342 1416 | 2286375 2286449 | 75 75 | 90.67 | lm_ill_lm_contig16 contig_58
+		Alignment: 1473 1587 | 2286506 2286620 | 115 115 | 93.91 | lm_ill_lm_contig16 contig_58
+		Unaligned bases: 4756506
+
+Analyzing coverage...
+Writing SNPs into /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/lm_ill/contigs_reports/minimap_output/r10_1bin_v2_3_r2_medaka.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /media3/lucia/zymo_mock_community/asms_cuantizados/v6_27-2-21_1bin/metaquast-1bin-v2/runs_per_reference/lm_ill/contigs_reports/minimap_output/r10_1bin_v2_3_r2_medaka.used_snps.gz
+
+Results:
+	Local Misassemblies: 7
+	Misassemblies: 2
+		Relocations: 0
+		Translocations: 2
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassemblies caused by fragmented reference: 16
+	Misassembled Contigs: 1
+	Misassembled Contig Bases: 2992047
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 7 part
+Half Unaligned Contigs with Misassemblies: 6
+Unaligned Contig Bases: 20949867
+
+Ambiguously Mapped Contigs: 5
+Total Bases in Ambiguously Mapped Contigs: 14546114
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 2957404
+
+	SNPs: 6902
+	Insertions: 662
+	Deletions: 1277
+
