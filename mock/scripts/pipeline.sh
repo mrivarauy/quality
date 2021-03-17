@@ -4,7 +4,7 @@
 
 PREFIX=r10-3
 ASSEMBLY=raw-${PREFIX}.fasta
-NPROC=28
+NPROC=32
 READS_NANO=/media3/lucia/zymo_mock_community/Zymo-GridION-EVEN-3Peaks-R103-merged.fq.gz
 MEDAKA_MODEL=r103_min_high_g345
 MP_PARAMS=/media3/lucia/zymo_mock_community/marginPolish/params/allParams.np.microbial.r103g324.json
